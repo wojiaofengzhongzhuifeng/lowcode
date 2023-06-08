@@ -6,7 +6,6 @@ import img from '../Article/Does-GBTC-track-the-price-of-Spot-Bitcoin.webp'
 import './index.scss'
 
 
-// todo Article 涉及到嵌套元素展示
 interface ArticleProps{
   title: string,
   imgAlt?: string,

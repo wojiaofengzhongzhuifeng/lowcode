@@ -1,4 +1,4 @@
-import Cookies from "js-cookie";
+// import Cookies from "js-cookie";
 
 export const getParam = (name, type = "") => {
   let urlS = window.location.href;
@@ -25,14 +25,14 @@ export function getUrlParam(name) {
   return result ? decodeURIComponent(result[2].replace(/%20/g, "%2B")) : null;
 }
 
-export const is_login = () => {
-  if (getParam("is_phone")) {
-    //判断主站APP端是否登录
-    return getParam("uid")
-  }
-  //判断主站PC端是否登录
-  return Cookies.get("is_on") === '1'
-}
+// export const is_login = () => {
+//   if (getParam("is_phone")) {
+//     //判断主站APP端是否登录
+//     return getParam("uid")
+//   }
+//   //判断主站PC端是否登录
+//   return Cookies.get("is_on") === '1'
+// }
 
 export function GetRequest() {
   const url = window.location.search;

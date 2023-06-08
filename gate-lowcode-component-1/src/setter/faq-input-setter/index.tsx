@@ -29,7 +29,7 @@ const FAQInputSetter: React.FC<FAQSetterProps> = ({
     setFaqList([...faqList, {title: "", isShow: false, contentList: ['']}])
     // setTimeout(()=>{
     //   console.log('faqList', faqList);
-    //   onChange(faqList) // todo 测试代码 需要删除
+    //   onChange(faqList)
     //
     // }, 3000)
   }

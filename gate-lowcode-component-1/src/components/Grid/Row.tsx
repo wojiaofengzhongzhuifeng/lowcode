@@ -87,8 +87,7 @@ export interface RowStyles {
   gridTemplateColumns?: string
   gridGap?: string
 }
-// todo 支持输入数字
-// todo 支持输入小数
+
 
 const Row: React.FC<RowProps> = props => {
   const { children, xxl, xl, lg, md, sm, xs, span, xxlGutter, xlGutter, lgGutter, mdGutter, smGutter, xsGutter, gutter } = props

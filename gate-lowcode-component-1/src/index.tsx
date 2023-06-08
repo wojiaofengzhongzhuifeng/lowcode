@@ -16,6 +16,7 @@ export { default as DivContainer } from './components/DivContainer/index';
 export { default as CenterContainer } from './components/Grid/CenterContainer';
 export { default as Row } from './components/Grid/Row';
 export { default as CompareModuleClassic } from './components/CompareModuleClassic/index';
+export { default as CardContentButton } from './components/CardContentButton/index';
 
 import AltStringSetter from './setter/input-setter';
 import FAQInputSetter from "./setter/faq-input-setter";

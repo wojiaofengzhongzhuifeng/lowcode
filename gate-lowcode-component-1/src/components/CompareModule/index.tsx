@@ -4,7 +4,7 @@ import Vs from './vs.png'
 // import cuo from '../../image/cuo.png'
 import './index.scss'
 
-// todo compareModuleH5 和 compareModuleClassic 没有处理
+
 export const initialCompareModuleProps = {
   compareData: {
     a: {

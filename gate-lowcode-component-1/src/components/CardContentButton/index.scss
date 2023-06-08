@@ -1,0 +1,106 @@
+.CardContentButton {
+    h2 {
+        font-family: Gate_Sans_Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #04091A;
+        margin-bottom: 40px;
+    }
+
+    .Card_Block {
+        .Block_title {
+            font-family: Gate_Sans_Medium;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 120%;
+            color: #04091A;
+
+        }
+
+        .Block_text {
+            font-family: Gate_Sans_Regular;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #565D73;
+            margin-top: 8px ;
+        }
+
+        .Block_btn {
+            font-family: Gate_Sans_SemiBold;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 14px;
+            color: #FFFFFF;
+            padding: 9px 16px;
+            background: #2354E6;
+            display: table;
+            border-radius: 4px;
+            float: right;
+            margin-top: 16px;
+        }
+    }
+}
+
+
+.classic-dark {
+
+    .CardContentButton {
+        h2 {
+            color: #FFFFFF;
+        }
+
+        .Card_Block {
+            .Block_title {
+                color: #FFFFFF;
+
+            }
+
+            .Block_text {
+                color: #989FB3;
+            }
+
+            .Block_btn {
+                color: #FFFFFF;
+                background: #3366FF;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .CardContentButton {
+        h2 {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+
+        .Card_Block {
+            .Block_title {
+                font-size: 16px;
+                line-height: 150%;
+            }
+
+            .Block_text {
+                font-size: 12px;
+                line-height: 180%;
+                margin-top: 12px;
+            }
+
+            .Block_btn {
+                font-size: 16px;
+                float: none;
+                width: 100%;
+                text-align: center;
+                padding: 10.5px 0;
+                margin-top: 24px;
+            }
+        }
+    }
+
+}

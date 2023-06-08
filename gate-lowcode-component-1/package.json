@@ -21,7 +21,7 @@
     "f2elint-fix": "f2elint fix",
     "dumi": "cross-env APP_ROOT=docs dumi dev",
     "dumi:build": "cross-env APP_ROOT=docs dumi build",
-    "prepublishOnly": "npm run build && npm run lowcode:build && npm run dumi:build"
+    "prepublishOnly": "npm run build && npm run lowcode:build && npm ruyarnn dumi:build"
   },
   "directories": {
     "test": "test"
@@ -64,7 +64,6 @@
     "@alifd/next": "^1.25.27",
     "@alilc/lowcode-engine": "^1.1.6",
     "echarts": "^5.4.2",
-    "js-cookie": "^3.0.5",
     "moment": "latest",
     "prop-types": "^15.5.8",
     "react": "^16.x",

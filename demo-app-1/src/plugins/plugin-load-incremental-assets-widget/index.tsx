@@ -31,7 +31,7 @@ const loadIncrementalAssets = () => {
           package: 'mc-breadcrumb',
           version: '1.0.0',
           exportName: 'MCBreadcrumb',
-          main: 'lib/index.js',
+          main: 'lib/index.tsx',
           destructuring: false,
           subName: '',
         },

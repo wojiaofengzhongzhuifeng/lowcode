@@ -73,7 +73,7 @@ function FAQ ({title, FaqList, isDark, id}: FAQSProps) {
 			})
 		}
 		const scripts = createPortal(
-      // todo 删除 @ts-ignore
+      // 删除 @ts-ignore
       // @ts-ignore
 			<>
 				<script type="application/ld+json" id="faq-data">
@@ -108,7 +108,7 @@ function FAQ ({title, FaqList, isDark, id}: FAQSProps) {
   }, [FaqList])
 
 	return (
-    // todo 删除 @ts-ignore
+    // 删除 @ts-ignore
     // @ts-ignore
 		<>
 			<div className={'FAQ'} id={id}>

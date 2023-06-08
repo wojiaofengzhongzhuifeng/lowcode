@@ -100,7 +100,6 @@ export const initialSiderBarProps: SiderBarProps = [
   },
 ]
 
-// todo 目前在低代码平台无法正常使用
 const Dir = ({dirList}: SiderBarProps) => {
 
   const [activeindex, SetActiveindex] = useState(0);
