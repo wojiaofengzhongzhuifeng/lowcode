@@ -1,0 +1,57 @@
+.Icon {
+    padding: 40px 0 80px;
+
+    h2 {
+        font-family: Gate_Sans_Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #04091A;
+
+    }
+
+    .Icon_Components {
+        width: calc(100% - 80rem);
+        padding: 40rem;
+        border-radius: 8px;
+        background: linear-gradient(180deg, #f8fafd, rgba(248, 250, 253, 0));
+        margin-top: 40px;
+
+        .Components_Img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.classic-dark {
+    .Icon {
+        h2 {
+            color: #FFFFFF;
+        }
+
+        .Icon_Componentsm {
+            background: #1f2433;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .Icon {
+        padding: 24px 0;
+
+        h2 {
+            font-size: 24px;
+
+        }
+         .Icon_Components{
+            margin-top: 24px;
+         }
+    }
+
+}

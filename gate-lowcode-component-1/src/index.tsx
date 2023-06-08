@@ -19,6 +19,7 @@ export { default as CompareModuleClassic } from './components/CompareModuleClass
 export { default as CardContentButton } from './components/CardContentButton/index';
 export { default as TimelineHorizontal } from './components/TimelineHorizontal/index';
 export { default as CardImage } from './components/CardImage/index';
+export { default as BrandIcon } from './components/BrandIcon/index';
 
 
 import AltStringSetter from './setter/input-setter';
