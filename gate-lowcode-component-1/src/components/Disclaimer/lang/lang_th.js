@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `ฝ่ายสนับสนุนลูกค้า 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `หากคุณต้องการความช่วยเหลือเกี่ยวกับผลิตภัณฑ์และบริการของ Gate.io โปรดติดต่อทีมสนับสนุนลูกค้าด้านล่าง`;
+lang[`Live Chat`] = `ไลฟ์แชท`;
+lang[`E-mail`] = `อีเมล์`;
+lang[`Submit a Ticket`] = `ส่งตั๋ว`;
+lang[`Disclaimer`] = `ข้อจำกัดความรับผิดชอบ`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `ตลาดสกุลเงินดิจิทัลมีความเสี่ยงสูง ผู้ใช้ควรดำเนินการวิจัยอิสระและทำความเข้าใจอย่างถ่องแท้ถึงธรรมชาติของสินทรัพย์และผลิตภัณฑ์ที่นำเสนอก่อนตัดสินใจลงทุน Gate.io จะไม่รับผิดชอบต่อความสูญเสียหรือความเสียหายใดๆ ที่เกิดจาก การตัดสินใจทางการเงินดังกล่าว`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `นอกจากนี้ โปรดทราบว่า Gate.io อาจไม่สามารถให้บริการได้เต็มรูปแบบในบางตลาดและเขตอำนาจศาล แต่ไม่จำกัดเพียงสหรัฐอเมริกา แคนาดา อิหร่าน และคิวบา สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตำแหน่งที่ถูกจำกัด โปรดดูที่ <a href="https://www.gate.io/user-agreement" target="_blank">หัวข้อ 2.3(d) ของข้อตกลงผู้ใช้</a>`;
+lang[`Start Now`]=`เริ่มตอนนี้`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`สมัครและรับรางวัล <span>$100</span>`;
+lang[`Create Account`]=`ลงทะเบียนทันที`;
+export default lang;

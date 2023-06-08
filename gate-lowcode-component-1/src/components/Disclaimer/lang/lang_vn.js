@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `Chăm sóc khách hàng 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Nếu bạn cần hỗ trợ liên quan đến các sản phẩm và dịch vụ của Gate.io, vui lòng liên hệ với Nhóm chăm sóc khách hàng dưới đây.`;
+lang[`Live Chat`] = `Live Chat`;
+lang[`E-mail`] = `E-mail`;
+lang[`Submit a Ticket`] = `Gửi Ticket`;
+lang[`Disclaimer`] = `Từ chối trách nhiệm`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `Thị trường tiền điện tử có mức độ rủi ro cao. Người dùng nên tiến hành nghiên cứu độc lập và hiểu đầy đủ bản chất của tài sản và sản phẩm được cung cấp trước khi đưa ra bất kỳ quyết định đầu tư nào. Gate.io sẽ không chịu trách nhiệm pháp lý cho bất kỳ tổn thất hoặc thiệt hại nào phát sinh từ các quyết định đầu tư như vậy.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `Ngoài ra, vui lòng lưu ý Gate.io có thể không cung cấp đầy đủ dịch vụ ở một số thị trường và khu vực pháp lý nhất định, bao gồm nhưng không giới hạn ở Hoa Kỳ, Canada, Iran và Cuba. Để biết thêm thông tin về Khu vực bị hạn chế, vui lòng tham khảo <a href="https://www.gate.io/user-agreement" target="_blank">Mục 2.3(d) trong Thỏa thuận người dùng</a>.`;
+lang[`Start Now`]=`Bắt đầu giao dịch`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`Đăng ký và giao dịch để nhận phần thưởng USDTEST trị giá  <span>$100 và $5500</span>`;
+lang[`Create Account`]=`Đăng ký ngay`;
+export default lang;

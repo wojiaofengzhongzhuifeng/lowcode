@@ -1,0 +1,49 @@
+export const saveSchema = async (scenarioName: string = 'unknown') => {
+
+
+  let localSchemaData = getLocalSchema()
+
+
+
+  let searchParamas = window.location.search
+  let searchParmasObj = new URLSearchParams(searchParamas)
+
+  let schemaId = searchParmasObj.get('schema-id')
+
+  if(!schemaId){
+    Message.notice("正在保存到远端数据")
+
+    // 创建操作
+    const createRes = await createSchemaRequest({schemaData: localSchemaData})
+    console.log('createRes', createRes);
+    const {data: createedSchemaid}  = createRes
+
+    var originalUrl = window.location.href;
+    var searchObj = { ['schema-id']: createedSchemaid };
+    var searchParams = new URLSearchParams(searchObj);
+    var newUrl = originalUrl + '?' + searchParams.toString();
+    window.history.pushState({ path: newUrl }, '', newUrl);
+    Message.success('成功保存到云端');
+
+  } else {
+    Message.notice("正在将修改保存到远端")
+
+    let localSchemaDataObj = JSON.parse(localSchemaData)
+    // 在修改之前，需要将schema数据修改为  pc + light
+    const componentTree = localSchemaDataObj.componentsTree[0]
+    changeComponentToPcAndLight(componentTree)
+
+    // 更新操作
+    const updateRes = await updateSchemaRequest({schemaId, schemaData: JSON.stringify(localSchemaDataObj)})
+
+    Message.success("保存到远端数据成功")
+  }
+
+
+
+  // window.history.pushState({ path: updatedUrl }, '', updatedUrl);
+
+  // setProjectSchemaToLocalStorage(scenarioName);
+  // await setPackagesToLocalStorage(scenarioName);
+  // Message.success('成功保存到本地');
+};

@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `7/24/365 Müşteri Desteği`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Gate.io ürünleri ve hizmetleri ile ilgili yardıma ihtiyacınız olursa, lütfen aşağıdaki Müşteri Destek Ekibine ulaşın.`;
+lang[`Live Chat`] = `Canlı Sohbet`;
+lang[`E-mail`] = `E-posta`;
+lang[`Submit a Ticket`] = `Bilet Gönder`;
+lang[`Disclaimer`] = `Sorumluluk Reddi`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `Kripto para piyasası yüksek düzeyde risk içerir. Kullanıcıların herhangi bir yatırım kararı vermeden önce bağımsız araştırma yapmaları ve sunulan varlıkların ve ürünlerin doğasını tam olarak anlamaları tavsiye edilir. Gate.io, bu tür finansal kararlardan kaynaklanan herhangi bir kayıp veya zarardan sorumlu tutulamaz.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `Ayrıca, Gate.io'nun Amerika Birleşik Devletleri, Kanada, İran ve Küba dahil ancak bunlarla sınırlı olmamak üzere belirli pazarlarda ve yetki alanlarında tam hizmet sağlayamayacağını unutmayın. Kısıtlanmış Konumlar hakkında daha fazla bilgi için lütfen <a href="https://www.gate.io/user-agreement" target="_blank">Kullanıcı Sözleşmesinin 2.3(d) Bölümü</a>'ne bakın.`;
+lang[`Start Now`]=`Hemen Başlayın`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`Kaydolun, <span>$100</span> Ödül Kazanın!`;
+lang[`Create Account`]=`Hesap Oluştur`;
+export default lang;

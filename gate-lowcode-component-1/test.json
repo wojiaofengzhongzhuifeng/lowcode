@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "componentsMap": [
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "LearnArticleList",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "LearnArticleList"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "TimeLineVertical",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "TimeLineVertical"
+    },
+    {
+      "devMode": "lowCode",
+      "componentName": "Page"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "Banner",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Banner"
+    }
+  ],
+  "componentsTree": [
+    {
+      "componentName": "Page",
+      "id": "node_oclhzohxiy1",
+      "docId": "doclhzohxiy",
+      "props": {},
+      "hidden": false,
+      "title": "",
+      "isLocked": false,
+      "condition": true,
+      "conditionGroup": "",
+      "children": [
+        {
+          "componentName": "Banner",
+          "id": "node_oclhzyqzn11",
+          "docId": "doclhzyqzn1",
+          "props": {
+            "isPhone": false,
+            "newsList": [
+              {
+                "author": "Gate.io Researcher: Peter L.",
+                "author_id": "9245799",
+                "brief": "[//]:content-type-MARKDOWN-DONOT-DELETE\n![](https://gimg2.gateimg.com/image/article/16838606220512.jpg)\n## 币圈每日摘要：投资者受银行业危机影响正寻求新的市场催化剂，以太坊已解决主网中断问题，英国央行的数字货币“Britcoin”面临信任挑战，埃...",
+                "cate": "11",
+                "cate_str": "市场前沿",
+                "id": "2608/第一行情-btc下跌迫使人们探寻新催化剂-马斯克辞去twitterceo职务-英国央行数字货币britcoin面临信任挑战",
+                "imgurl": "https://gimg2.gateimg.com/image/article/16838606220512.jpg",
+                "release_time": "2023-05-12",
+                "source": "Gate.blog",
+                "subtitle": "受银行业危机影响，BTC价格的下跌促使投资者迫切寻找新的市场催化剂。以太坊已解决主网中断问题。英国央行的数字货币“Britcoin”面临信任挑战。埃隆·马斯克辞去推特首席执行官职务。全球股市波动，避险资产需求旺盛。",
+                "title": "第一行情｜BTC下跌迫使人们探寻新催化剂，马斯克辞去TwitterCEO职务，英国央行数字货币“Britcoin”面临信任挑战",
+                "updated_d": "今天",
+                "updated_t": "09:47",
+                "views": "20"
+              }
+            ],
+            "BannerTitleList": [
+              {
+                "title": "GBTC vs Bitcoin"
+              },
+              {
+                "title": "GBTC"
+              }
+            ],
+            "bannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-dark.webp",
+            "pcDarkBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-dark.webp",
+            "h5LightBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-h5.webp",
+            "h5DarkBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-h5-dark.webp",
+            "title": "GBTC vs Bitcoin:<br/>Is the Discount to NAV Worth the Drama for you as an Investor?",
+            "subTitle": "GBTC is now trading at a steep discount to NAV, and one may be wondering if it is a good time to take advantage of this for an amplified ROI when the crypto bull market returns. However, with unhappy investors protesting and multiple lawsuits ongoing for Grayscale, is such discount worth it?"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        },
+        {
+          "componentName": "LearnArticleList",
+          "id": "node_oclhzohxiy2",
+          "docId": "doclhzohxiy",
+          "props": {
+            "title": "GBTC and Bitcoin Related Articles",
+            "learnArticleList": [
+              {
+                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/5311f319ec00017f591e5356feac8513efd1ff29.jpg",
+                "tit": "Beginner",
+                "color": "green",
+                "subtitle": "What is Bitcoin (BTC)?",
+                "href": "undefined/learn/articles/what-is-bitcoin/169"
+              },
+              {
+                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/535631b61cb7269bb43a682e8e564a6423d9b6a5.jpg",
+                "tit": "Beginner",
+                "color": "green",
+                "subtitle": "What is a Bitcoin ETF?",
+                "href": "undefined/learn/articles/what-is-a-bitcoin-etf/218"
+              },
+              {
+                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/73f83c02f95247e84a1e5e086046cf08eee538bc.jpg",
+                "tit": "Beginner",
+                "color": "green",
+                "subtitle": "What is Spot Trading?",
+                "href": "undefined/learn/articles/what-is-spot-trading/93"
+              }
+            ],
+            "id": "test"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        },
+        {
+          "componentName": "TimeLineVertical",
+          "id": "node_oclhzohxiy3",
+          "docId": "doclhzohxiy",
+          "props": {
+            "title": "The Redeem GBTC Campaign: Unhappy Investors Seeking A Way Out, But Can They?",
+            "isPhone": false,
+            "timeData": [
+              {
+                "time": "September 2013",
+                "title": "The Birth of GBTC",
+                "contentList": [
+                  "GBTC was founded with the aim of providing institutional and high net worth individuals (HNWI) with exposure to Bitcoin without the challenges and risks of trading and holding Bitcoin directly. The role of GBTC was simply to hold Bitcoin, issue shares representing such Bitcoin ownership and processing share redemption upon request. Since its inception until 2014, GBTC issued 1,474,600 shares and processed the redemption of 92,200 shares."
+                ]
+              },
+              {
+                "time": "23 September 2014",
+                "title": "SEC Suspended GBTC Share Redemption",
+                "contentList": [
+                  "The SEC issued a notice stating that the GBTC redemption program had violated Reg M in simultaneously issuing and redeeming shares. With that, the GBTC redemption program was suspended the very next day."
+                ]
+              },
+              {
+                "time": "2016-2017",
+                "title": "Grayscale Changes Its Direction to Target the Masses",
+                "contentList": [
+                  "Grayscale filed its first application to convert itself into a Bitcoin ETF, which is contrary to its initial product proposition. There were conversations between Grayscale and the SEC on this matter, however the application was eventually withdrawn on the basis that the regulatory environment at the material time was insufficient for such a product to be successfully brought to market."
+                ]
+              },
+              {
+                "time": "July 2016",
+                "title": "GBTC Share Redemption No Longer Suspended by the SEC, but...",
+                "contentList": [
+                  "GBTC entered into a settlement with the SEC, which supposedly should have resolved the prior Reg M violations. However, GBTC continued to self-restrict the operation of its redemption program, purportedly in compliance with Reg M. In doing so, Grayscale had failed to acknowledge that Reg M only requires that issuance and redemption cannot be done simultaneously, instead of a complete ban in share redemption."
+                ]
+              },
+              {
+                "time": "4 October 2017",
+                "title": "Grayscale Amended the Trust Agreement for Absolute Control",
+                "contentList": [
+                  "Such amendment gave management powers to suspend or refuse redemption orders while shareholders were stripped the rights to remove the management, even in case of abuse of powers."
+                ]
+              },
+              {
+                "time": "12 September 2018",
+                "title": "And then Grayscale Pretends to Tie its own hands in Prohibiting Share Redemption",
+                "contentList": [
+                  "Grayscale again amended the Trust Agreement, this time self-imposing a prohibition in share redemption. In trying to ustify such an amendment, Grayscale claimed that a waiver from SEC was necessary for the share redemptions to be permitted, when in reality there is no such legal requirement at all."
+                ]
+              },
+              {
+                "time": "2018-2021",
+                "title": "Malicious Share Issuance to New Investors",
+                "contentList": [
+                  "While no share redemption was processed, Grayscale had at the same time issued exponential quantities of new shares, thereby flooding the market with excessive supply. At the same time, contrary to its original purpose, Grayscale was marketing itself to individual investors through campaigns such as #DropGold. With that, the value of assets under management flipped and triggered over 2,000% increase in the annual fees of GBTC."
+                ]
+              },
+              {
+                "time": "March 2021",
+                "title": "GBTC Shares Started Trading at a Steep Discount",
+                "contentList": [
+                  "Due to the overissuance and oversupply of GBTC shares, coinciding with the beginning of crypto winter, GBTC shares started to trade at a discount. The historical biggest discount happened in December 2022, at a discount of 48.89%."
+                ]
+              },
+              {
+                "time": "5 April 2021",
+                "title": "Again, Grayscale Attempts to Convert GBTC into an ETF",
+                "contentList": [
+                  "Grayscale filed a blog post with the SEC claiming to have been “100% committed to converting GBTC into an ETF” and that this has always been its intention, despite contrary statements in the past. Such conversion also served as a justification to the refusal of share redemptions."
+                ]
+              },
+              {
+                "time": "29 June 2022",
+                "title": "SEC Rejected the Application to Convert GBTC into ETF",
+                "contentList": [
+                  "Along with applications related to Bitcoin ETFs by other issuers, the SEC rejected these applications on the grounds that these proposals failed to meet anti-fraud and investor protection standards."
+                ]
+              },
+              {
+                "time": "December 2022",
+                "title": "GBTC Investor Fight Back with the GBTC Campaign",
+                "contentList": [
+                  "David Bailey, the CEO of Bitcoin Magazine, initiated this campaign so that GBTC shareholders receive fair treatment from the management. The campaign saught for a credible path to GBTC share redemptions while minimizing the impact on the spot Bitcoin market, a fee reduction, as well as a change in management with a competitive bidding process for new trust sponsors."
+                ]
+              }
+            ],
+            "id": "test"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        }
+      ]
+    }
+  ],
+  "i18n": {}
+}

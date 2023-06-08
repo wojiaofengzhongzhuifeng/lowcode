@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = ` دعم العملاء على مدار الساعة 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `إذا كنت بحاجة إلى مساعدة تتعلق بمنتجات وخدمات Gate.io ، فيرجى التواصل مع فريق دعم العملاء على النحو التالي.`;
+lang[`Live Chat`] = `دردشة مباشرة`;
+lang[`E-mail`] = `البريد الالكتروني `;
+lang[`Submit a Ticket`] = `تسجيل التذكرة`;
+lang[`Disclaimer`] = `إخلاء مسؤولية `;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `ينطوي سوق العملات الرقمية على مستوى عالٍ من المخاطر ، لذا يُنصح المستخدمون بإجراء بحث مستقل وفهم طبيعة الأصول والمنتجات المعروضة بشكل كامل قبل اتخاذ أي قرارات استثمارية.  لن تكون شركة Gate.io مسؤولة عن أي خسارة أو ضرر ناتج عن مثل هذه القرارات المالية.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `علاوة على ذلك ، لاحظ أن Gate.io قد لا تكون قادرة على تقديم خدمة كاملة في بعض الأسواق والسلطات القضائية ، بما في ذلك على سبيل المثال لا الحصر الولايات المتحدة الأمريكية وكندا وإيران وكوبا.  لمزيد من المعلومات حول المواقع المحظورة ، يرجى الرجوع إلى <a href="https://www.gate.io/user-agreement" target="_blank"> البند 2.3 (د) من اتفاقية المستخدم </a>.`;
+lang[`Start Now`]=`ابدأ التداول الآن`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`اشترك وتداول لتحصل على قسيمة بقيمة <span>$100</span> دولار أمريكي!`;
+lang[`Create Account`]=`إنشاء حساب الآن`;
+export default lang;

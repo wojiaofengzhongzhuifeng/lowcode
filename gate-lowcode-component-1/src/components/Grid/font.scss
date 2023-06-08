@@ -1,0 +1,41 @@
+/* -------------- 字体适配 -------------- */
+@media screen and (min-width: 2560px) {
+  :root {
+    font-size: 1.2px !important;
+  }
+}
+@media screen and (max-width: 2560px) {
+  :root {
+    font-size: 1.2px !important;
+  }
+}
+@media screen and (max-width: 1920px) {
+  :root {
+    font-size: 1px !important;
+  }
+}
+@media screen and (max-width: 1440.1px) {
+  :root {
+    font-size: 1px !important;
+  }
+}
+@media screen and (max-width: 1200.1px) {
+  :root {
+    font-size: 0.78px !important;
+  }
+}
+@media screen and (max-width: 992.1px) {
+  :root {
+    font-size: 0.7px !important;
+  }
+}
+@media screen and (max-width: 768.1px) {
+  :root {
+    font-size: 0.58px !important;
+  }
+}
+@media screen and (max-width: 414.1px) {
+  :root {
+    font-size: 0.58px !important;
+  }
+}

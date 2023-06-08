@@ -1,0 +1,23 @@
+.articles-wrapper {
+  padding: 40rem 0;
+  .articles-container {
+    .articles-container-img {
+      margin: 40rem 0;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .articles-wrapper {
+    padding: 24px 0;
+    .articles-container {
+      .articles-container-img {
+        margin: 24px 0;
+      }
+    }
+  }
+}

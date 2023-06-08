@@ -1,0 +1,226 @@
+.compare-module-h5-container {
+  position: relative;
+  margin-top: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compare-module-item-contexts {
+  color: #04091A;
+  font-family: Gate_Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  flex: 1;
+
+}
+
+
+.compare-module-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.compare-module-card-wrapper-h5 {
+  background: #2354E6;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.compare-module-card-header-h5 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 24px;
+
+  .compare-module-card-header-icon {
+    width: 32px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .compare-module-card-header-title-h5 {
+    flex: 1;
+    font-family: Gate_Sans_Bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #04091A;
+  }
+}
+
+.compare-module-card-container-h5 {
+  position: relative;
+  z-index: 1;
+
+  .compare-module-item-h5 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 26px;
+
+    &:last-child {
+      margin-bottom: unset;
+    }
+
+    .compare-module-item-prefix-h5 {
+      width: 6px;
+      height: 6px;
+      background: #17E5A1;
+    }
+
+    .compare-module-item-context-h5 {
+      flex: 1;
+      font-family: Gate_Sans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #04091A;
+    }
+  }
+}
+
+.compare-a-h5 {
+  width: 100%;
+
+  .compare-module-card-wrapper-h5 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #F8FAFD;
+    padding: 24px 12px 94px 12px;
+    z-index: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 85%);
+
+  }
+}
+
+.compare-b-h5 {
+  width: 100%;
+
+  .compare-module-card-wrapper-h5 {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: -200px auto 0;
+    padding: 242px 16px 38px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .compare-module-item-contexts {
+    color: #FFFFFF;
+  }
+  .compare-module-card-header-h5 {
+    .compare-module-card-header-title-h5 {
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+  }
+
+  .compare-module-hr {
+    opacity: 0.3;
+  }
+
+  .compare-module-card-container .compare-module-item .compare-module-item-context {
+    font-size: 16px;
+  }
+
+  .compare-module-card-container-h5 {
+    .compare-module-item-h5 {
+      .compare-module-item-prefix-h5 {
+        background: #ADB5CC;
+      }
+
+      .compare-module-item-context-h5 {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .vs-img-pic {
+    position: absolute;
+    width: 84.8px !important;
+    height: unset !important;
+    z-index: 2;
+    top: 38%;
+    left: unset;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .compare-module-card-container .compare-module-item {
+    margin-bottom: 20px !important;
+  }
+
+  .compare-module-card-container .compare-module-item .compare-module-item-prefix {
+    width: 12px !important;
+  }
+
+  .compare-module-hr {
+    margin-bottom: 24px !important;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .vs-img-pic{
+    top: 41%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .vs-img-pic{
+    top: 38% !important;
+    left: 37% !important;
+  }
+}
+
+.classic-dark {
+  .compare-a-h5 {
+    .compare-module-card-wrapper-h5 {
+      background: #1F2433;
+      border: 1px solid #2A2F40
+    }
+
+    .compare-module-card-header-title-Left-h5 {
+      color: #FFFFFF;
+    }
+  }
+
+  .compare-module-item-contexts {
+    color: #FFFFFF;
+  }
+
+  .compare-b-h5 {
+    .compare-module-card-wrapper-h5 {
+      background: #3366FF;
+    }
+
+    .compare-module-card-header-h5 {
+      .compare-module-card-header-title-h5 {
+        color: #FFFFFF;
+      }
+    }
+
+    .compare-module-card-container-h5 {
+      .compare-module-item-h5 {
+        .compare-module-item-context-h5 {
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,142 @@
+.Banner {
+  padding: 64px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  .banner-container {
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #04091A;
+  }
+
+  &-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+
+    h1 {
+      padding: 13rem 16rem;
+      background: #EEF1FA;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1;
+      color: #04091A;
+    }
+
+
+  }
+
+  &-content {
+    padding-top: 24rem;
+    font-weight: 700;
+    font-size: 48rem;
+    line-height: 1.2;
+    max-width: 713rem;
+    color: #04091A;
+  }
+
+  &-footer {
+    max-width: 713rem;
+    padding-top: 16rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #565D73;
+
+  }
+}
+
+
+.classic-dark {
+  .Banner {
+    &-title {
+      color: #FFFFFF;
+    }
+
+    &-button {
+      h1 {
+        background: #292F40;
+        color: #FFFFFF;
+      }
+    }
+
+    &-content {
+      color: #FFFFFF;
+    }
+
+    &-footer {
+      color: #989FB3;
+
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+  .Banner {
+    .banner-container {
+      height: 536rem;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .Banner {
+    &-content {
+      max-width: 690rem;
+    }
+
+    &-footer {
+      max-width: 690rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .Banner {
+    height: 520px;
+    padding: 32px 0 0;
+    .banner-container {
+      height: unset;
+      display: block;
+    }
+
+    &-title {
+      font-size: 12px;
+    }
+
+    &-button {
+      margin-top: 8px;
+      gap: 16px;
+
+      h1 {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+    }
+
+    &-content {
+      max-width: unset;
+      padding-top: 16px;
+      font-size: 28px;
+      line-height: 1.5;
+    }
+
+    &-footer {
+      max-width: unset;
+      padding-top: 12px;
+      font-size: 14px;
+    }
+  }
+}

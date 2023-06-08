@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `24時間365日対応のカスタマーサポート`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Gate.ioの商品およびサービスに関してサポートが必要な場合は、以下のカスタマーサポートチームにご連絡ください。`;
+lang[`Live Chat`] = `ライブチャット`;
+lang[`E-mail`] = `メールアドレス`;
+lang[`Submit a Ticket`] = `チケットの送信`;
+lang[`Disclaimer`] = `免責事項について`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `暗号資産市場は高いレベルのリスクを伴います。ユーザーは、投資判断を下す前に、独自の調査を行い、提供される資産と商品の性質を十分に理解することをお勧めします。Gate.ioは、そのような金融判断に起因するいかなる損失や損害に対しても責任を負いません。`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `さらに、Gate.io は、アメリカ合衆国、カナダ、イラン、キューバを含むがこれらに限定されない特定の市場および法域では完全なサービスを提供できない可能性があることに注意してください。制限付きの場所の詳細については、<a href="https://www.gate.io/user-agreement" target="_blank">ユーザー規約のセクション 2.3(d)</a> を参照してください。`;
+lang[`Start Now`]=`今すぐ始める`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`登録して、<span>$100</span>のボーナスを獲得しよう！`;
+lang[`Create Account`]=`アカウント作成`;
+export default lang;

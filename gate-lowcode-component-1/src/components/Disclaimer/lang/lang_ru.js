@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `Поддержка клиентов 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Если вам потребуется помощь, связанная с Gate.io продукты и услуги, пожалуйста, обратитесь в службу поддержки клиентов, как показано ниже.`;
+lang[`Live Chat`] = `Живой чат`;
+lang[`E - mail`] = `Электронная почта`;
+lang[`Submit a Ticket`] = `Отправить тикет`;
+lang[`Disclaimer`] = `Дисклеймер`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `Рынок криптовалют сопряжен с высоким уровнем риска.Пользователям рекомендуется провести независимое исследование и полностью понять природу предлагаемых активов и продуктов, прежде чем принимать какие-либо инвестиционные решения. Gate.io не несет ответственности за любые убытки или ущерб, возникшие в результате таких финансовых решений.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = ` Кроме того, примите к сведению, что Gate.io возможно, не сможет предоставлять полный спектр услуг на определенных рынках и в юрисдикциях, включая, но не ограничиваясь: Соединенные Штаты Америки, Канаду, Иран и Кубу. Для получения дополнительной информации о местах с ограниченным доступом, пожалуйста, обратитесь к <a href = "https://www.gate.io/user-agreement" target = "_blank" >Разделу 2.3(d) Пользовательского соглашения</a>.`;
+lang[`Start Now`]=`Начните Сейчас`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`Зарегистрируйтесь сейчас и получите ваучер на <span>$100</span>!`;
+lang[`Create Account`]=`Создать аккаунт`;
+export default lang;

@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `Підтримка клієнтів 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Якщо вам потрібна допомога, пов’язана з продуктами та послугами Gate.io, зверніться до команди підтримки клієнтів, як зазначено нижче.`;
+lang[`Live Chat`] = `Живий чат`;
+lang[`E-mail`] = `Електронна пошта`;
+lang[`Submit a Ticket`] = `Надіслати тікет`;
+lang[`Disclaimer`] = `Дисклеймер`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `«Ринок криптовалюти пов’язаний з високим рівнем ризику. Користувачам рекомендується провести незалежне дослідження та повністю зрозуміти природу пропонованих активів і продуктів, перш ніж приймати будь-які інвестиційні рішення. Gate.io не несе відповідальності за будь-які збитки чи збитки внаслідок таких фінансових рішень.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `Крім того, візьміть до уваги, що Gate.io може бути не в змозі надавати повні послуги на певних ринках і юрисдикціях, включаючи, але не обмежуючись, Сполучені Штати Америки, Канаду, Іран і Кубу. Для отримання додаткової інформації про обмежені місця розташування див. <a href="https://www.gate.io/user-agreement" target="_blank">Розділ 2.3(d) Угоди користувача</a>.`;
+lang[`Start Now`]=`Почніть зараз`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`Зареєструйтеся та отримайте ваучер на <span>$100</span>!`;
+lang[`Create Account`]=`Створити обліковий запис`;
+export default lang;

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Gate_Sans;
+    src: url('../fonts/GateProductSans-Light.woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: Gate_Sans;
+    src: url('../fonts/GateProductSans-Regular.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gate_Sans;
+    src: url('../fonts/GateProductSans-Medium.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Gate_Sans;
+    src: url('../fonts/GateProductSans-SemiBold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: Gate_Sans;
+    src: url('../fonts/GateProductSans-Bold.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Gate_Sans_Regular;
+    src: url('../fonts/GateProductSans-Regular.woff2');
+}
+@font-face {
+    font-family: Gate_Sans_Light;
+    src: url('../fonts/GateProductSans-Light.woff2');
+}
+@font-face {
+    font-family: Gate_Sans_Bold;
+    src: url('../fonts/GateProductSans-Bold.woff2');
+}
+@font-face {
+    font-family: Gate_Sans_Medium;
+    src: url('../fonts/GateProductSans-Medium.woff2');
+}
+@font-face {
+    font-family: Gate_Sans_SemiBold;
+    src: url('../fonts/GateProductSans-SemiBold.woff2');
+}
+

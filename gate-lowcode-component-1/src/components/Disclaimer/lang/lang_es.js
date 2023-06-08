@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `Atención al cliente 24/7/365`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `Si necesita asistencia relacionada con los productos y servicios de Gate.io, póngase en contacto con el equipo de atención al cliente.`;
+lang[`Live Chat`] = `Chat en vivo`;
+lang[`E - mail`] = `Correo electrónico`;
+lang[`Submit a Ticket`] = `Enviar un boleto`;
+lang[`Disclaimer`] = `Descargo de responsabilidad`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions.Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `Se recomienda a los usuarios que lleven a cabo una investigación independiente y comprendan plenamente la naturaleza de los activos y productos ofrecidos antes de tomar cualquier decisión de inversión. Gate.io no se hace responsable de cualquier pérdida o daño resultante de tales decisiones financieras.`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `Además, tenga en cuenta que es posible que Gate.io no pueda brindar un servicio completo en ciertos mercados y jurisdicciones, incluidos, entre otros, los Estados Unidos de América, Canadá, Irán y Cuba. Para obtener más información sobre las Ubicaciones restringidas, consulte la <a href = "https://www.gate.io/user-agreement" target= "_blank">Sección 2.3(d) del Acuerdo de usuario</a>.`;
+lang[`Start Now`]=`Empieza ahora`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`¡Regístrese y reciba un bono de <span>100$</span>!`;
+lang[`Create Account`]=`Crea tu cuenta`;
+export default lang;

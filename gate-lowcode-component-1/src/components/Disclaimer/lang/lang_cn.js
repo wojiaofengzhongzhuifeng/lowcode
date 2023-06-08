@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Customer Support`] = `24/7/365 客户支持`;
+lang[`Should you require assistance related to Gate.io products and services, please reach out to the Customer Support Team as below.`] = `如果您需要与 Gate.io 产品和服务相关的帮助，请通过以下方式联系客户支持团队。`;
+lang[`Live Chat`] = `在线聊天`;
+lang[`E-mail`] = `电子邮件`;
+lang[`Submit a Ticket`] = `提交工单`;
+lang[`Disclaimer`] = `免责声明`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `加密货币市场投资涉及高风险，建议用户在做出任何投资决定之前进行独立研究并充分了解所购买资产和产品的性质。 Gate.io 不对此类投资决策造成的任何损失或损害承担责任。`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`] = `请注意，Gate.io 可能无法在某些市场和司法管辖区提供完整服务，包括但不限于美国、加拿大、伊朗和古巴。 有关受限位置的更多信息，请参阅 <a href="https://www.gate.io/user-agreement" target="_blank">用户协议第 2.3(d) 条</a>。`;
+lang[`Start Now`]=`即刻开始交易`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`注册并交易即可获得<span>$100和价值$5500</span>理财体验金奖励！`;
+lang[`Create Account`]=`立即注册`;
+export default lang;

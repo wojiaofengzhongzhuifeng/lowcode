@@ -1,0 +1,678 @@
+.Card {
+  padding: 40rem 0;
+  width: 100%;
+
+  &-container {
+    margin-top: 40rem;
+
+    &-content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 24rem;
+
+      &-item0 {
+        -webkit-tap-highlight-color: transparent;
+        display: block;
+        text-decoration: none;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+      }
+
+      &-item {
+        position: relative;
+        background: #FFFFFF;
+        border: 1px solid #F8FAFD;
+        box-shadow: 0 4px 14px rgba(19, 60, 158, 0.06);
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .lazyload-wrapper {
+          width: 100%;
+          max-height: 236rem;
+        }
+
+        img {
+          width: 100%;
+          border-radius: 8px;
+          aspect-ratio: 16 / 9;
+          min-height: 145rem;
+        }
+
+        &-block {
+          padding: 16px;
+          color: #ffffff;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+
+          &-title {
+            margin-bottom: 8rem;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            word-break: break-word;
+            white-space: normal;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            /*超出要隐藏*/
+            color: #04091A;
+            overflow: hidden;
+            a {
+              color: #04091A;
+            }
+          }
+
+          .Card-empty {
+            margin-bottom: 48rem;
+            flex: 1;
+          }
+
+          &-content {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #565D73;
+            word-break: break-word;
+            white-space: normal;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          .Card-container-content-item-block-link-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+          }
+          &-link {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 16px;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1;
+            color: #565D73;
+
+            &-btn {
+              padding: 8px 12px;
+              background: #EEF1FA;
+              border-radius: 4px;
+              color: #565D73;
+              font-weight: 500;
+              word-break: break-word;
+            }
+
+            &-time {
+              color: #B8BDCC;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+
+    &-wrap {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+
+      &-item {
+        width: calc(100% - 48rem);
+        padding: 24rem 16rem;
+        background: #F8FAFD;
+        border-radius: 8px;
+        margin-bottom: 24rem;
+        cursor: pointer;
+        color: #FFFFFF;
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 8px;
+        }
+
+        &-block {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-direction: column;
+
+          &-top {
+            span {
+              display: block;
+            }
+
+            &-title {
+              margin: 10px 0;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 1.5;
+              color: #04091A;
+
+              a {
+                color: #04091A;
+              }
+            }
+
+            &-content {
+              width: 100%;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 1.5;
+              color: #565D73;
+            }
+          }
+          &-link {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1;
+            color: #565D73;
+            margin-top: 16rem;
+
+            &-btn {
+              display: inline-block;
+              margin-right: 24rem;
+              padding: 8px 12px;
+              background: #EEF1FA;
+              border-radius: 4px;
+              color: #565D73;
+              text-overflow: ellipsis;
+              font-weight: 500;
+              /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+              white-space: nowrap;
+              /*让文字不换行*/
+              overflow: hidden;
+              /*超出要隐藏*/
+            }
+
+            &-time {
+              text-overflow: ellipsis;
+              /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+              white-space: nowrap;
+              /*让文字不换行*/
+              overflow: hidden;
+              /*超出要隐藏*/
+              color: #B8BDCC;
+            }
+          }
+        }
+      }
+    }
+
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-tex {
+        margin-right: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+        color: #2354E6;
+        cursor: pointer;
+
+        &:hover {
+          color: #1B41B2;
+        }
+      }
+
+      &-down {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+.classic-dark {
+  .Card {
+    width: 100%;
+
+    &-container {
+      &-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 51rem;
+
+        &-item0 {
+          -webkit-tap-highlight-color: transparent;
+          display: block;
+          text-decoration: none;
+          box-sizing: border-box;
+          position: relative;
+          overflow: hidden;
+        }
+
+        &-item {
+          position: relative;
+          width: 100%;
+          background: #1F2433;
+          border: 1px solid #1F2433;
+          box-shadow: 0 4px 14px rgba(19, 60, 158, 0.06);
+          border-radius: 8px;
+          cursor: pointer;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            aspect-ratio: 16 / 9;
+          }
+
+          &-block {
+            padding: 16rem 24rem;
+
+            &-title {
+              color: #ffffff;
+              margin: 16px 0 8px;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 1;
+              text-overflow: ellipsis;
+              /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+              white-space: nowrap;
+              /*让文字不换行*/
+              overflow: hidden;
+
+              /*超出要隐藏*/
+              a {
+                color: #ffffff;
+              }
+            }
+
+            &-content {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 1.5;
+              color: #989FB3;
+              word-break: break-all;
+              white-space: normal;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+            }
+
+            &-link {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+              margin-top: 16px;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 1;
+              color: #989FB3;
+
+              &-btn {
+                padding: 8px 12px;
+                background: #292F40;
+                border-radius: 4px;
+                text-overflow: ellipsis;
+                /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+                white-space: nowrap;
+                /*让文字不换行*/
+                overflow: hidden;
+                /*超出要隐藏*/
+                color: #989FB3;
+              }
+
+              &-time {
+                text-overflow: ellipsis;
+                /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+                white-space: nowrap;
+                /*让文字不换行*/
+                overflow: hidden;
+                /*超出要隐藏*/
+                color: #474F66;
+              }
+            }
+          }
+        }
+      }
+
+      &-wrap {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+
+        &-item {
+          width: calc(100% - 48rem);
+          padding: 24rem;
+          background: #1F2433;
+          border-radius: 8px;
+          margin-bottom: 24px;
+          cursor: pointer;
+
+          img {
+            width: 342rem;
+            // height: 192rem;
+            border-radius: 8px;
+          }
+
+          &-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+
+            &-top {
+              span {
+                display: block;
+              }
+
+              &-title {
+                color: #FFFFFF;
+                margin: 10px 0;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 1.5;
+
+                a {
+                  color: #FFFFFF;
+                }
+              }
+
+              &-content {
+                width: 100%;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5;
+                color: #989FB3;
+              }
+            }
+
+            &-link {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              width: 100%;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 1;
+              color: #565D73;
+              gap: 24rem;
+
+              &-btn {
+                display: inline-block;
+                padding: 8px 12px;
+                background: #292F40;
+                border-radius: 4px;
+                text-overflow: ellipsis;
+                color: #989FB3;
+                /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+                white-space: nowrap;
+                /*让文字不换行*/
+                overflow: hidden;
+                /*超出要隐藏*/
+              }
+
+              &-time {
+                text-overflow: ellipsis;
+                /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+                white-space: nowrap;
+                /*让文字不换行*/
+                overflow: hidden;
+                /*超出要隐藏*/
+              }
+            }
+          }
+        }
+      }
+
+      &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-tex {
+          margin-right: 8px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1;
+          color: #3366ff;
+          cursor: pointer;
+
+          &:hover {
+            color: #1B41B2;
+          }
+        }
+
+        &-down {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+
+}
+
+.ru-body {
+  .Card-container-content-item-block-link-btn {
+    margin-right: 8rem;
+  }
+}
+
+
+@media (max-width:1440px) {
+  .Card-container-wrap-item {
+    .flex--grid--main {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width:1300px) {
+  .Card-container-content-item .lazyload-wrapper {
+    min-height: 236rem;
+    max-height: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .Card {
+    padding-top: 48px;
+    width: 100%;
+
+    h2 {
+      font-size: 20px !important;
+    }
+
+    &-title {
+      color: #04091A;
+
+      h2 {
+        margin-bottom: 24px;
+        font-size: 24px;
+      }
+    }
+
+    &-container {
+      width: 100%;
+      margin-top: 24px;
+
+      &-content {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-bottom: 8px;
+
+        &-item {
+          width: 100%;
+          position: relative;
+          background: #F8FAFD;
+          border: 1px solid #F8FAFD;
+          box-shadow: 0 4px 14px rgba(19, 60, 158, 0.06);
+          border-radius: 8px;
+          margin-bottom: 24px;
+
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            aspect-ratio: 16 / 9;
+          }
+
+          &-block {
+            padding: 16px;
+
+            &-title {
+              margin: 0 0 8px;
+              line-height: 1.5;
+            }
+
+            &-content {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+
+      &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-tex {
+          font-size: 14px;
+
+          &:hover {
+            color: #3366ff;
+          }
+
+          &:active {
+            color: #1B41B2;
+          }
+        }
+
+        &-down {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
+  }
+
+  .classic-dark {
+    .Card {
+      padding-top: 72px;
+      width: 100%;
+
+      &-title {
+        color: #FFFFFF;
+
+        h2 {
+          margin-bottom: 24px;
+          font-size: 24px;
+        }
+      }
+
+      &-container {
+        width: 100%;
+
+        &-content {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          flex-wrap: nowrap;
+          flex-direction: column;
+          margin-bottom: 24px;
+
+          &-item {
+            width: 100%;
+            position: relative;
+            background: #1F2433;
+            border: 1px solid #1F2433;
+            box-shadow: 0 4px 14px rgba(19, 60, 158, 0.06);
+            border-radius: 8px;
+            margin-bottom: 8px;
+
+            img {
+              width: 100%;
+              height: 192px;
+              border-radius: 8px;
+            }
+
+            &-block {
+              padding: 16px 16px;
+
+              &-title {
+                margin: 0 0 8px;
+                line-height: 1.5;
+              }
+
+              &-content {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        &-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &-tex {
+            font-size: 14px;
+
+            &:hover {
+              color: #3366ff;
+            }
+
+            &:active {
+              color: #1B41B2;
+            }
+          }
+
+          &-down {
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1052 @@
+{
+  "version": "1.0.0",
+  "componentsMap": [
+    {
+      "package": "@alifd/fusion-ui",
+      "version": "2.0.2",
+      "exportName": "ProDrawer",
+      "main": "lib/index.js",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Drawer"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "Banner",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Banner"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "ImageFoldList",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "ImageFoldList"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "CardListType1",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "CardListType1"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "Article",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Article"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "TimeLineVertical",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "TimeLineVertical"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "CompareModuleClassic",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "CompareModuleClassic"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "ChartCard",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "ChartCard"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "NewCard",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "NewCard"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "FAQS",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "FAQS"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "LearnArticleList",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "LearnArticleList"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "Disclaimer",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Disclaimer"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "DivContainer",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "DivContainer"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "SlideBar",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "SlideBar"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "Row",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "Row"
+    },
+    {
+      "package": "gate-lowcode-component",
+      "version": "0.2.18",
+      "exportName": "CenterContainer",
+      "main": "src/index.tsx",
+      "destructuring": true,
+      "subName": "",
+      "componentName": "CenterContainer"
+    },
+    {
+      "package": "@alifd/layout",
+      "version": "2.0.12",
+      "exportName": "Page",
+      "main": "lib/index.js",
+      "destructuring": true,
+      "componentName": "FDPage"
+    },
+    {
+      "devMode": "lowCode",
+      "componentName": "Page"
+    }
+  ],
+  "componentsTree": [
+    {
+      "componentName": "Page",
+      "id": "node_dockcviv8fo1",
+      "props": {
+        "ref": "outerView",
+        "style": {
+          "height": "100%"
+        }
+      },
+      "docId": "doclaqkk3b9",
+      "fileName": "/",
+      "dataSource": {
+        "list": [
+          {
+            "type": "fetch",
+            "isInit": true,
+            "options": {
+              "params": {},
+              "method": "GET",
+              "isCors": true,
+              "timeout": 5000,
+              "headers": {},
+              "uri": "mock/info.json"
+            },
+            "id": "info",
+            "shouldFetch": {
+              "type": "JSFunction",
+              "value": "function() { \n  console.log('should fetch.....');\n  return true; \n}"
+            }
+          }
+        ]
+      },
+      "state": {
+        "text": {
+          "type": "JSExpression",
+          "value": "\"outer\""
+        },
+        "isShowDialog": {
+          "type": "JSExpression",
+          "value": "false"
+        }
+      },
+      "css": "body {\n  font-size: 12px;\n}\n\n.button {\n  width: 100px;\n  color: #ff00ff\n}",
+      "lifeCycles": {
+        "componentDidMount": {
+          "type": "JSFunction",
+          "value": "function componentDidMount() {\n  console.log('did mount');\n}",
+          "source": "function componentDidMount() {\n  console.log('did mount');\n}"
+        },
+        "componentWillUnmount": {
+          "type": "JSFunction",
+          "value": "function componentWillUnmount() {\n  console.log('will unmount');\n}",
+          "source": "function componentWillUnmount() {\n  console.log('will unmount');\n}"
+        }
+      },
+      "methods": {
+        "testFunc": {
+          "type": "JSFunction",
+          "value": "function testFunc() {\n  console.log('test func');\n}",
+          "source": "function testFunc() {\n  console.log('test func');\n}"
+        },
+        "onClick": {
+          "type": "JSFunction",
+          "value": "function onClick() {\n  this.setState({\n    isShowDialog: true\n  });\n}",
+          "source": "function onClick() {\n  this.setState({\n    isShowDialog: true\n  });\n}"
+        },
+        "closeDialog": {
+          "type": "JSFunction",
+          "value": "function closeDialog() {\n  this.setState({\n    isShowDialog: false\n  });\n}",
+          "source": "function closeDialog() {\n  this.setState({\n    isShowDialog: false\n  });\n}"
+        },
+        "getHelloWorldText": {
+          "type": "JSFunction",
+          "value": "function getHelloWorldText() {\n  return this.i18n('i18n-jwg27yo4');\n}",
+          "source": "function getHelloWorldText() {\n  return this.i18n('i18n-jwg27yo4');\n}"
+        },
+        "getHelloWorldText2": {
+          "type": "JSFunction",
+          "value": "function getHelloWorldText2() {\n  return this.i18n('i18n-jwg27yo3', {\n    name: '絮黎'\n  });\n}",
+          "source": "function getHelloWorldText2() {\n  return this.i18n('i18n-jwg27yo3', {\n    name: '絮黎'\n  });\n}"
+        },
+        "onTestConstantsButtonClicked": {
+          "type": "JSFunction",
+          "value": "function onTestConstantsButtonClicked() {\n  console.log('constants.ConstantA:', this.constants.ConstantA);\n  console.log('constants.ConstantB:', this.constants.ConstantB);\n}",
+          "source": "function onTestConstantsButtonClicked() {\n  console.log('constants.ConstantA:', this.constants.ConstantA);\n  console.log('constants.ConstantB:', this.constants.ConstantB);\n}"
+        },
+        "onTestUtilsButtonClicked": {
+          "type": "JSFunction",
+          "value": "function onTestUtilsButtonClicked() {\n  this.utils.demoUtil('param1', 'param2');\n}",
+          "source": "function onTestUtilsButtonClicked() {\n  this.utils.demoUtil('param1', 'param2');\n}"
+        }
+      },
+      "originCode": "class LowcodeComponent extends Component {\n  state = {\n    \"text\": \"outer\",\n    \"isShowDialog\": false\n  }\n  componentDidMount() {\n    console.log('did mount');\n  }\n  componentWillUnmount() {\n    console.log('will unmount');\n  }\n  testFunc() {\n    console.log('test func');\n  }\n  onClick() {\n    this.setState({\n      isShowDialog: true\n    });\n  }\n  closeDialog() {\n    this.setState({\n      isShowDialog: false\n    });\n  }\n  getHelloWorldText() {\n    return this.i18n('i18n-jwg27yo4');\n  }\n  getHelloWorldText2() {\n    return this.i18n('i18n-jwg27yo3', {\n      name: '絮黎',\n    });\n  }\n  onTestConstantsButtonClicked() {\n    console.log('constants.ConstantA:', this.constants.ConstantA);\n    console.log('constants.ConstantB:', this.constants.ConstantB);\n\t}\n\tonTestUtilsButtonClicked(){\n    this.utils.demoUtil('param1', 'param2');\n\t}\n}",
+      "hidden": false,
+      "title": "",
+      "isLocked": false,
+      "condition": true,
+      "conditionGroup": "",
+      "children": [
+        {
+          "componentName": "Drawer",
+          "id": "node_oclhr1jv9jst",
+          "props": {
+            "prefix": "next-",
+            "triggerType": "click",
+            "closeable": true,
+            "placement": "right",
+            "hasMask": true,
+            "isAutoContainer": true,
+            "visible": true,
+            "ref": "pro-drawer-entrylhr1katj"
+          },
+          "hidden": true,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        },
+        {
+          "componentName": "Banner",
+          "id": "node_oclht8j7vl17",
+          "props": {
+            "isPhone": false,
+            "newsList": [
+              {
+                "author": "Gate.io Researcher: Peter L.",
+                "author_id": "9245799",
+                "brief": "[//]:content-type-MARKDOWN-DONOT-DELETE\n![](https://gimg2.gateimg.com/image/article/16838606220512.jpg)\n## 币圈每日摘要：投资者受银行业危机影响正寻求新的市场催化剂，以太坊已解决主网中断问题，英国央行的数字货币“Britcoin”面临信任挑战，埃...",
+                "cate": "11",
+                "cate_str": "市场前沿",
+                "id": "2608/第一行情-btc下跌迫使人们探寻新催化剂-马斯克辞去twitterceo职务-英国央行数字货币britcoin面临信任挑战",
+                "imgurl": "https://gimg2.gateimg.com/image/article/16838606220512.jpg",
+                "release_time": "2023-05-12",
+                "source": "Gate.blog",
+                "subtitle": "受银行业危机影响，BTC价格的下跌促使投资者迫切寻找新的市场催化剂。以太坊已解决主网中断问题。英国央行的数字货币“Britcoin”面临信任挑战。埃隆·马斯克辞去推特首席执行官职务。全球股市波动，避险资产需求旺盛。",
+                "title": "第一行情｜BTC下跌迫使人们探寻新催化剂，马斯克辞去TwitterCEO职务，英国央行数字货币“Britcoin”面临信任挑战",
+                "updated_d": "今天",
+                "updated_t": "09:47",
+                "views": "20"
+              }
+            ],
+            "BannerTitleList": [
+              {
+                "title": "GBTC vs Bitcoin"
+              },
+              {
+                "title": "GBTC"
+              }
+            ],
+            "bannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth.webp",
+            "title": "1 - test - GBTC vs Bitcoin:<br/>Is the Discount to NAV Worth the Drama for you as an Investor?",
+            "subTitle": "GBTC is now trading at a steep discount to NAV, and one may be wondering if it is a good time to take advantage of this for an amplified ROI when the crypto bull market returns. However, with unhappy investors protesting and multiple lawsuits ongoing for Grayscale, is such discount worth it?",
+            "pcDarkBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-dark.webp",
+            "h5LightBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-h5.webp",
+            "h5DarkBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth-h5-dark.webp",
+            "pcLightBannerImg": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/gbtc-vs-bitcoin-discount-to-nav-worth.webp"
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        },
+        {
+          "componentName": "CenterContainer",
+          "id": "node_oclht8j7vl8e",
+          "props": {
+            "selfClassName": ""
+          },
+          "hidden": false,
+          "title": "",
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": "",
+          "children": [
+            {
+              "componentName": "Row",
+              "id": "node_oclht8j7vlf1",
+              "props": {
+                "xxl": [
+                  1,
+                  1
+                ],
+                "xl": [
+                  7.8,
+                  2.2
+                ],
+                "lg": [
+                  7.8,
+                  2.2
+                ],
+                "md": [
+                  7.8,
+                  2.2
+                ],
+                "sm": [
+                  7.8,
+                  2.2
+                ],
+                "xs": [
+                  7.8,
+                  2.2
+                ],
+                "span": [
+                  7.8,
+                  2.2
+                ],
+                "xxlGutter": "48px",
+                "xlGutter": "24px",
+                "lgGutter": "12px",
+                "mdGutter": "12px",
+                "smGutter": "12px",
+                "xsGutter": "6px",
+                "gutter": "12px"
+              },
+              "hidden": false,
+              "title": "",
+              "isLocked": false,
+              "condition": true,
+              "conditionGroup": "",
+              "children": [
+                {
+                  "componentName": "DivContainer",
+                  "id": "node_oclht8j7vlja",
+                  "props": {
+                    "test": ""
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": "",
+                  "children": [
+                    {
+                      "componentName": "ImageFoldList",
+                      "id": "node_oclht8j7vljm",
+                      "props": {
+                        "title": "What is GBTC and What Makes it So Special?",
+                        "describe": "The Grayscale Bitcoin Trust (GBTC) is an investment vehicle allowing investors to buy and sell its shares via stock trading platforms. In January 2020, GBTC became the first digital currency trust reporting to the SEC reporting company.",
+                        "image": "https://www.gate.io/static_pages/gbtc-bitcoin-discount-nav/static/images/GBTC-why-special.webp",
+                        "imageAlt": "",
+                        "foldListData": [
+                          {
+                            "title": "GBTC can be traded exactly like an individual stock",
+                            "describe": "This is a more familiar process to most investors compared to attempting to learn the ropes from scratch in Bitcoin investment."
+                          },
+                          {
+                            "title": "Convenience in Bitcoin investment though stock trading platforms",
+                            "describe": "This eliminates the need to set up and manage crypto wallets."
+                          },
+                          {
+                            "title": "Investors can have exposure to Bitcoin without legal complications",
+                            "describe": "Securities law around stock market is clearer, whereas the laws surrounding the cryptocurrency market remains relatively muddled. In this sense, there is more clarity when an investor owns GBTC compared to Bitcoin."
+                          },
+                          {
+                            "title": "Bitcoin custodial storage and insurance against loss or theft is covered",
+                            "describe": "As Grayscale operates as a trust holding Bitcoin on behalf of the investors, the management is also responsible for cryptocurrency custodial storage and insurance as well. This allows investors to bypass the relevant technical know-how in owning Bitcoin."
+                          }
+                        ],
+                        "id": "what-is-gbtc"
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": ""
+                    },
+                    {
+                      "componentName": "Article",
+                      "id": "node_oclht8j7vljn",
+                      "props": {
+                        "title": "GBTC vs Bitcoin Chart: Does GBTC track the price of Spot Bitcoin?",
+                        "imgAlt": "",
+                        "subTitle": "Some may say this is close enough. But this no longer holds true when GBTC shares were trading at a discount close near 50% to the Bitcoins held by Grayscale.",
+                        "imgUrl": "https://i.niupic.com/images/2023/05/15/b6Ig.webp",
+                        "subTitle2": "",
+                        "id": "test"
+                      },
+                      "hidden": false,
+                      "title": "",
+                      "isLocked": false,
+                      "condition": true,
+                      "conditionGroup": "",
+                      "children": [
+                        {
+                          "componentName": "CardListType1",
+                          "id": "node_oclht8j7vlqq",
+                          "props": {
+                            "list": [
+                              {
+                                "img": "data:image/webp;base64,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",
+                                "title": "Terra Luna",
+                                "content": "Two major products of the project, LUNA and UST, crashed more than 99% in just a short span of three days, triggering a series of liquidation in the crypto market. And Bitcoin price is no exception to this.",
+                                "imgAlt": "Will Terra Luna Recover?",
+                                "href": "undefined/explore/terra-luna",
+                                "buttonName": "Will Terra Luna Recover?",
+                                "linkType": "inSet"
+                              },
+                              {
+                                "img": "data:image/webp;base64,UklGRsoMAABXRUJQVlA4IL4MAADwRwCdASpWAcAAPm02lkikP6IiJTHpM/ANiWVuxuaHTeo/+O1iryXmWcr9Q/h/x77JOfDq3zF+a/+f6CP89/APdT+hvRI6TvmD/aX9qveL/0v7Ge677T/gA/rX+q6yf0CP2n9OD2Wv7d/vv209sDViPP/aRtEmHsY2cvtAva37D6DUylVFNN8jGoh0mP3K9g/9hx3SYRk8YBhDRVCyUnPgwPRnw+A/9ROo4nrzAZWtzs5M6qwEAqLNm8feyxsOhgw6X6WvTRtoZtClf4W/tZZxcokf7g8yehI9bFiAoShlxxLJ5YZW52yI60eY/xY4HIG9juDrJ8nICPmLgwceBCLI+bo+T7dImG1u38OtxSr7/5OYmhyca+jtEXF7+7CwdaJMe731AwBr/zt3RqNNyniNvOxj/Vc9wx3zDI1tYz0lu85WV4Ddd3F6hAjBteEf/OYANI8WPbisNcV8AIwkiJ+tYJvrkk0C+O7cFlLoAhrcWGN1bvK+EoOPJjJzdgM4zLLJFCil+8ThMZQMsuRQ5XAbmy/HQItafeEIcUQSIQVbUF9n5okiPUyuv73fyAT9VTe+MoNIkLp3jdAFhbgH5ciHSRAJ2I74HGe70cg8JG7YyZPoJqhROOBfx1o1+6xQVlhJris9+r5yaxSUaMMK6h7rQa/TEkv0oimzp0+XP0lDhfn8xz2SwQCcwqVuqwQyJbmtrWbcHnqdz80zISczPXXKEXhh2U4TpAaH/YztRe1v2neCLemnOyGz20xGkVVosvJ0iLGP6aJJYAD+/K3Q0tSNtIu9S+cegkstbxcxB2tEM5yGQCNue5ZAYwdK8L7a7fD9eZbfYQ4DWctH9WT6SAhNQ7L2kJcJfXGZy139yAI248kYw09u2k4NI4MenCNA+LTvkm+9M5dXWf7AbipYTfkWXY/8tTaxeW71In/HbsJbiU8jPpGzPLFO/FXDchYlxZZVPKzbjE5ATNfTODZb4+ZUW4XaBBM+oZi/gZWApOrBc0tAyKZ7+dXpvRFaAQp2yF1veE/F8XpW9p/qvW18Ucg8uq3gZ9Z3P9YziX/jUXPAmxzePyhc3rZ4WsMfpbwp5u9danU1aVjkbTjjVWvC1PD5PfaQLNbHLnlvsCPvpKA8K5RnKiCCqxk+cqHhZ20tSFmA5/RTHGcpzurL5N0J/DnU6F52t4Mbq3m/TDHG+oFC21GDdwfGkYFjxqrmaZPyrNchipxL3Ced6Z9HbkPE/Ih82FByD+qSW9JE0uwq6h4T/xYzicAZqFDmQ2wXRMsojB3RrJjBeNXa5AXOMXP0VkWZ5iY6vCrc+N9Y+hlZ1V4zV5OApxZKPzNt/xiX/2O9QOyWA/wRmZWdovjcJ7dGbMcGFD4z9V4EX7Acs2qIysF+2ZGEcdt25A/bzDSVTAlD/pLEpX0E2Q6KP/sbRUIljGX58pYFlLMJIf7LwoYsCLBOgfoFjlzwFBE342GtOrt4Gw5FwSQwuoWJslDL+XPeIdHHBLdp7MJdvGK4DyXfOLHgrcElU4oxfkYvqXXSFMD2+wNFsx5b+ywC065appIydBURP8pd8x27uMY6XgZ/s6HQkr9usb5a77NhK00nJI6WJgLqtizlEFsNzZP1NfcQ9SC1CvrXxAmGpBK6Wb1wfNr7r8oWMqb12R4TEWH9G7qst1Hr5H5PAVwWRFU8aEgjDWrpkmmGVmyA+mGuuF3IRhf8keX338n45XT+BQcmgeJaaWJaB1MDniGI7dK39KEXN/b4b8xfvzLQMX4xFeCBu1ojHEmHfeJn9sqtuiXoqFd8uWPw3LrvGfw0TW5VDh+5+mr2fREBbzXTiGgeOu3QA3LERl0a7OT2ytedFvTuExnd8cATm846skF4cDpFQmTTC1ktdQ6AqwVrlcCT36uDq09rolWv0L0s/06ld/PebkEJ/cbreOHmubh+O1Anwt6wCIIFr2MQo/R+9Vy2qKRk7pRwuThVY2qnI8vKH9FiHv5LkQAUA7LKdVRbJPq63cdZnVTxShP535KQyd8tiZ2fuZatJkhVCKixBGc9mG+81FwTdddH1huBwWybVUVpGH5RdZ7QOqBd4qfQ4FowmuFB6vhom5piSh/xaCy1vbJMds+MRLtb0hcMKwt28HkxQVJ4CsEzN3Fo3/rGQL+OZkwqdd5Rj3rnRx3DXKcgwjQ1jk42J6huXIjq3ypgfbZ/gjvIF2twBwrjx2jvGkcoV2NES73fjBXhvKDVpU+ENgCwNPdy0T2TDKPOfK8fzFo7dtAmeofjJ9RX2CgZ3jkdd40QKqN139uR8vU9YjI8AZglE5z1ScVzJU2ALPlPskAntBTw2N2bcQE7vQCzY9LjXp3xjAjngLJ1Q4NdJCQtltA1yxXmCKORF9JWn4ehXtFULOSwDaiTJqPPRWJQd4mJqeiMqU9CNxQYtRuya3G+sXpIgkHSIzwhZhqZr+SdqmjmELucWitbyKZHdSZFwlXixYRWqe2YH1YSgww/e1c0rs0no6aKb2SKtC1jKrRDQO2VnnRZPMnUbiD6JwyQ4zMCfsix7uVRQR0dCLypyYZItQyKt/zjWm93TW7FDCbI/dzqZ8IZfD0KhR+lmvArsriA0Fh14FG8qCrQCyHoNdEJIDCmQfj1o5tIr4XVNBv1aWgRKR2MyorijKL92/VxNyGJR7xF09D3XBwo/7/wgmycaWmf5GvGyez6ZqlXSsnhlVrrPNUFmfV7YG6dvhiTwbUUwFNlcH64CKqYdZqh71GgDIaT5KPBo+mwSrDogCQSeKOO1VGH0RCSLyCXOqG++AaSUVwqN1l75roOkNLlKZdpmdeKiKPOnKjEZBBIMCtpxqdaF8kw92RQHiazZud+csB4IzjXvRsLKmUD+Vi9e2GdL9Baeed2Id9Ux7SCsLmdjtAFS20fNvwFnf8wjlLdys/KpmyPE9Ymgvfy5IbwfYHN/KqnM+sW1k93ED6PVoFXUeGbRpTDWq5SppRLiAIfgr53eKFe9il1rjsstwzr63T3B3e2HyoBrPnLcBQWKI268Ab7GwRMOmM/DVw1NPNzYvC+QU78yb8nmZ4KZyPkcxOuaQuVPWSGpNecrBBTDlhpK2AFWGjd4eW3Xk9mkQwz0voggxDBts72Uu9fk+SsctAugSgue4Oxhb+LKsmVXfm6jP6HgRv6N9qGjj+l+v07uEl2251b7Rsvw7TPiKjsBJScp5SpR9iu85wsY818unI+3Iwmc4MrxZS2xuzeXHg6lu5cIpkwHIaP5RTAB15pH+udOijY8BLUCtI7O7ImHsghnseA0/H+GghEurQXkQPbEysY5BQeT/6V6cm9ipOK7iCEnTnG5VpwfMJurzbMBGLEj30UqHlr5vvXYzOoJKTbGBlshZKkr/a/re8AWOvZYv655jJ4dd4v6kil26v4lh/dDoLvQ/MspHIqH3Dt06HJhvQymdHgcc4LMS6xOinavOU0PTWAsfGxioL3NEzq++njtbpyuWZXmU8G/PZcIGOY8LwDa1XO77g6LD8HyFPOuwJwQIwW+xX3p58qFyTQWCSto3zaBdG/TlW7DXYQHhGvzW6+MUgQCzcJCN7uQoFEebV1KE3I7HXlELrnQoXhNjIXrNn2Sms7pxc+72grc0bf2q6peuPK9BDRy9niyHNw92Rn45NKnbxEUV45O+X4ldeTZLU2+J0l/0sqnr1/3g9t/YDAiLtwU34liNONIq4YYZpZSGKMDpDxOnn+f4DmhKARFr9/fPcF+zXxY5jdLmv1MO/Lo1WxDjWqlunMtI1j1g+v8niT6VNU28t7PFaNwkwvA2w7TGBOPX9p7iSRk6zHDcJYc0xCZXgIcCCWWe9BhOAVEYGBsXt4J5qC8gQ9pnhehaAAWFL0kuE9STdIpUS+j5ZKiexuLj0pyQJNSrc1C45hhyVVyN0jlpJyyyGo3gJoJWyXUsQPq1p/7/cM7vHoXI3Wt4b8uWuF4gNcj7q80LhzaOT1jFsVXx4QuEjKl3LxsAqy7DEZSBCdUIsuyJqTqX3YV2x9hd105UUO3quDmuQTyp/z30UZjrReWEfxoEDpPkH8TmzwxEfGOcPOvafjWRVlMkVwzY0S18z1jFZ3VW88STO8gJgl6q14oB1xIK8Ar/xsHPZ1xr7zJ9dXv37ULGLYOzHOj4s/NTKLKqksTD65bHNS7ZE5AIfoMiGi1JcPArIE6IX81EEWGDApOXa8hUxJP1NeyWwu3ZikhOCsnthHGxEtdqdelmse9Z9ooU69tkmWhy8QAArp8QwMM/GJ/pQxJJt85fMalx633wQFKuX+7JjxyiSuyr0NUoxX90/5Moug8elFcmrAA8ixWEv2uAQiCaRw2mYeaLhWoKDC9Ob3lEz6HQAA",
+                                "title": "Terra Luna",
+                                "content": "Two major products of the project, LUNA and UST, crashed more than 99% in just a short span of three days, triggering a series of liquidation in the crypto market. And Bitcoin price is no exception to this.",
+                                "imgAlt": "Will Terra Luna Recover?",
+                                "href": "undefined/explore/terra-luna",
+                                "buttonName": "Will Terra Luna Recover?",
+                                "linkType": "inSet"
+                              },
+                              {
+                                "img": "data:image/webp;base64,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",
+                                "title": "Terra Luna",
+                                "content": "Two major products of the project, LUNA and UST, crashed more than 99% in just a short span of three days, triggering a series of liquidation in the crypto market. And Bitcoin price is no exception to this.",
+                                "imgAlt": "Will Terra Luna Recover?",
+                                "href": "undefined/explore/terra-luna",
+                                "buttonName": "Will Terra Luna Recover?",
+                                "linkType": "inSet"
+                              }
+                            ],
+                            "dataClickEvent": ""
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "Article",
+                          "id": "node_oclht8j7vlqr",
+                          "props": {
+                            "title": "GBTC vs Bitcoin Chart: Does GBTC track the price of Spot Bitcoin?",
+                            "imgAlt": "",
+                            "subTitle": "Some may say this is close enough. But this no longer holds true when GBTC shares were trading at a discount close near 50% to the Bitcoins held by Grayscale.",
+                            "imgUrl": "https://i.niupic.com/images/2023/05/15/b6Ig.webp",
+                            "subTitle2": "",
+                            "id": "test"
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "TimeLineVertical",
+                          "id": "node_oclht8j7vlqs",
+                          "props": {
+                            "title": "The Redeem GBTC Campaign: Unhappy Investors Seeking A Way Out, But Can They?",
+                            "isPhone": false,
+                            "timeData": [
+                              {
+                                "time": "September 2013",
+                                "title": "The Birth of GBTC",
+                                "contentList": [
+                                  "GBTC was founded with the aim of providing institutional and high net worth individuals (HNWI) with exposure to Bitcoin without the challenges and risks of trading and holding Bitcoin directly. The role of GBTC was simply to hold Bitcoin, issue shares representing such Bitcoin ownership and processing share redemption upon request. Since its inception until 2014, GBTC issued 1,474,600 shares and processed the redemption of 92,200 shares."
+                                ]
+                              },
+                              {
+                                "time": "23 September 2014",
+                                "title": "SEC Suspended GBTC Share Redemption",
+                                "contentList": [
+                                  "The SEC issued a notice stating that the GBTC redemption program had violated Reg M in simultaneously issuing and redeeming shares. With that, the GBTC redemption program was suspended the very next day."
+                                ]
+                              },
+                              {
+                                "time": "2016-2017",
+                                "title": "Grayscale Changes Its Direction to Target the Masses",
+                                "contentList": [
+                                  "Grayscale filed its first application to convert itself into a Bitcoin ETF, which is contrary to its initial product proposition. There were conversations between Grayscale and the SEC on this matter, however the application was eventually withdrawn on the basis that the regulatory environment at the material time was insufficient for such a product to be successfully brought to market."
+                                ]
+                              },
+                              {
+                                "time": "July 2016",
+                                "title": "GBTC Share Redemption No Longer Suspended by the SEC, but...",
+                                "contentList": [
+                                  "GBTC entered into a settlement with the SEC, which supposedly should have resolved the prior Reg M violations. However, GBTC continued to self-restrict the operation of its redemption program, purportedly in compliance with Reg M. In doing so, Grayscale had failed to acknowledge that Reg M only requires that issuance and redemption cannot be done simultaneously, instead of a complete ban in share redemption."
+                                ]
+                              },
+                              {
+                                "time": "4 October 2017",
+                                "title": "Grayscale Amended the Trust Agreement for Absolute Control",
+                                "contentList": [
+                                  "Such amendment gave management powers to suspend or refuse redemption orders while shareholders were stripped the rights to remove the management, even in case of abuse of powers."
+                                ]
+                              },
+                              {
+                                "time": "12 September 2018",
+                                "title": "And then Grayscale Pretends to Tie its own hands in Prohibiting Share Redemption",
+                                "contentList": [
+                                  "Grayscale again amended the Trust Agreement, this time self-imposing a prohibition in share redemption. In trying to ustify such an amendment, Grayscale claimed that a waiver from SEC was necessary for the share redemptions to be permitted, when in reality there is no such legal requirement at all."
+                                ]
+                              },
+                              {
+                                "time": "2018-2021",
+                                "title": "Malicious Share Issuance to New Investors",
+                                "contentList": [
+                                  "While no share redemption was processed, Grayscale had at the same time issued exponential quantities of new shares, thereby flooding the market with excessive supply. At the same time, contrary to its original purpose, Grayscale was marketing itself to individual investors through campaigns such as #DropGold. With that, the value of assets under management flipped and triggered over 2,000% increase in the annual fees of GBTC."
+                                ]
+                              },
+                              {
+                                "time": "March 2021",
+                                "title": "GBTC Shares Started Trading at a Steep Discount",
+                                "contentList": [
+                                  "Due to the overissuance and oversupply of GBTC shares, coinciding with the beginning of crypto winter, GBTC shares started to trade at a discount. The historical biggest discount happened in December 2022, at a discount of 48.89%."
+                                ]
+                              },
+                              {
+                                "time": "5 April 2021",
+                                "title": "Again, Grayscale Attempts to Convert GBTC into an ETF",
+                                "contentList": [
+                                  "Grayscale filed a blog post with the SEC claiming to have been “100% committed to converting GBTC into an ETF” and that this has always been its intention, despite contrary statements in the past. Such conversion also served as a justification to the refusal of share redemptions."
+                                ]
+                              },
+                              {
+                                "time": "29 June 2022",
+                                "title": "SEC Rejected the Application to Convert GBTC into ETF",
+                                "contentList": [
+                                  "Along with applications related to Bitcoin ETFs by other issuers, the SEC rejected these applications on the grounds that these proposals failed to meet anti-fraud and investor protection standards."
+                                ]
+                              },
+                              {
+                                "time": "December 2022",
+                                "title": "GBTC Investor Fight Back with the GBTC Campaign",
+                                "contentList": [
+                                  "David Bailey, the CEO of Bitcoin Magazine, initiated this campaign so that GBTC shareholders receive fair treatment from the management. The campaign saught for a credible path to GBTC share redemptions while minimizing the impact on the spot Bitcoin market, a fee reduction, as well as a change in management with a competitive bidding process for new trust sponsors."
+                                ]
+                              }
+                            ],
+                            "id": "test"
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "CompareModuleClassic",
+                          "id": "node_ocli04yt791",
+                          "props": {
+                            "compareData": {
+                              "a": {
+                                "title": "Buying GBTC",
+                                "list": [
+                                  [
+                                    {
+                                      "icon": "",
+                                      "iconType": "no",
+                                      "context": "Own shares of GBTC only instead of actual Bitcoin"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "no",
+                                      "context": "High management fees at 2%, reducing overall ROI"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "no",
+                                      "context": "Share redemption process is unecessarily restrictive"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "no",
+                                      "context": "Limited liquidity, making entry and exit points less accurate"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "no",
+                                      "context": "Undergoing stakeholders and management conflict"
+                                    }
+                                  ]
+                                ]
+                              },
+                              "b": {
+                                "title": "Buying Spot Bitcoin",
+                                "list": [
+                                  [
+                                    {
+                                      "icon": "",
+                                      "iconType": "yes",
+                                      "context": "Ownership of actual Bitcoin instead of a derivative product with no intrinsic value"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "yes",
+                                      "context": "Valuation is much more straightforward to understand"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "yes",
+                                      "context": "Significantly bigger market cap than GBTC shares, making it easy to trade in the market"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "yes",
+                                      "context": "Can be traded via trusted centralized exchanges (CEX) with proof of reserves"
+                                    },
+                                    {
+                                      "icon": "",
+                                      "iconType": "yes",
+                                      "context": "Zero trading fee"
+                                    }
+                                  ]
+                                ]
+                              },
+                              "vsIcon": "https://www.sesametest.co:8080/static_pages/ali-lowcode/test-image/gbtc/images/vs.png"
+                            },
+                            "span": 0
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "ChartCard",
+                          "id": "node_oclht8j7vltr",
+                          "props": {
+                            "data": [
+                              {
+                                "title": "Bitcoin (BTC) Price",
+                                "describe": "The current price of Bitcoin (BTC) is $0$, which is also $1$ in the last 24 hours,  and $2$ in the past 7 days.  For more information, see <a href=\"/trade/BTC_USDT\">Bitcoin price</a> now.",
+                                "href": "/trade/BTC_USDT",
+                                "buttonName": "Trade BTC/USDT",
+                                "options": {
+                                  "tooltip": {
+                                    "trigger": "none"
+                                  },
+                                  "xAxis": [
+                                    {
+                                      "data": [
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-08",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09",
+                                        "05-09"
+                                      ],
+                                      "axisLabel": {
+                                        "show": true,
+                                        "interval": "auto"
+                                      }
+                                    }
+                                  ],
+                                  "yAxis": [
+                                    {
+                                      "type": "value",
+                                      "min": "25975.38",
+                                      "max": "29701.77",
+                                      "splitNumber": 8
+                                    }
+                                  ],
+                                  "grid": {
+                                    "top": "4%",
+                                    "left": "1%",
+                                    "right": 0,
+                                    "bottom": 0,
+                                    "containLabel": true,
+                                    "show": "true",
+                                    "borderWidth": "0"
+                                  },
+                                  "series": [
+                                    {
+                                      "type": "line",
+                                      "showSymbol": false,
+                                      "data": [
+                                        28219.3,
+                                        28287.4,
+                                        28201.5,
+                                        28130,
+                                        28262.7,
+                                        28174.9,
+                                        27982.9,
+                                        27717.5,
+                                        27916.5,
+                                        27939.1,
+                                        27933.8,
+                                        27769,
+                                        27852.4,
+                                        27968.1,
+                                        27888.7,
+                                        27865.6,
+                                        27525.5,
+                                        27475.2,
+                                        27342.5,
+                                        27536.9,
+                                        27542.5,
+                                        27654.2,
+                                        27666.7,
+                                        27576.3,
+                                        27699.7,
+                                        27641,
+                                        27624.5,
+                                        27606.6,
+                                        27544.8,
+                                        27473.8
+                                      ],
+                                      "itemStyle": {
+                                        "normal": {
+                                          "color": "#F23D3D",
+                                          "lineStyle": {
+                                            "color": "#F23D3D"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "NewCard",
+                          "id": "node_oclht8j7vlts",
+                          "props": {
+                            "title": "GBTC News Update: Is it a Trust or ETF Now?",
+                            "isPhone": false,
+                            "newsList": [
+                              {
+                                "title": "Bitcoin Prices Slip to 2-Month Lows As CoinDesk’s Bitcoin Trend Indicator Turns Neutral From Bullish",
+                                "news_url": "https://www.coindesk.com/markets/2023/05/12/btc-slips-to-2-month-low-as-coindesks-bitcoin-trend-indicator-sheds-bullish-bias/?utm_medium=referral&utm_source=rss&utm_campaign=headlines",
+                                "news_img": "https://www.coindesk.com/resizer/mfZ4IjxxtNXEiupFvmMKX_7oI5E=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/RVKHAA2JQFHTXCRUVBJNMNHVR4.png",
+                                "abstract": "Prices fell to $26,160 soon before press time, reaching the lowest since March 17.",
+                                "source": "coindesk",
+                                "release_time": "2023-05-12",
+                                "imgurl": "https://www.coindesk.com/resizer/mfZ4IjxxtNXEiupFvmMKX_7oI5E=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/RVKHAA2JQFHTXCRUVBJNMNHVR4.png",
+                                "brief": "Prices fell to $26,160 soon before press time, reaching the lowest since March 17."
+                              },
+                              {
+                                "title": "First Mover Asia: Bitcoin Regains $27K, but Investors Search for a Catalyst",
+                                "news_url": "https://www.coindesk.com/markets/2023/05/12/first-mover-asia-bitcoin-regains-27k-but-investors-search-for-a-catalyst/?utm_medium=referral&utm_source=rss&utm_campaign=headlines",
+                                "news_img": "https://www.coindesk.com/resizer/ylz3XVpjXnhTblnxmk5SM85OhSs=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/K6VQF3QSLZB25CDK3BVFXXSGRM.jpg",
+                                "abstract": "ALSO: The CEO of Stablecorp says that bitcoin's recent dip is part of its growing pains. He says that the scalability of the bitcoin network and liquidity present challenges.",
+                                "source": "coindesk",
+                                "release_time": "2023-05-12",
+                                "imgurl": "https://www.coindesk.com/resizer/ylz3XVpjXnhTblnxmk5SM85OhSs=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/K6VQF3QSLZB25CDK3BVFXXSGRM.jpg",
+                                "brief": "ALSO: The CEO of Stablecorp says that bitcoin's recent dip is part of its growing pains. He says that the scalability of the bitcoin network and liquidity present challenges."
+                              },
+                              {
+                                "title": "BTC price risks $27K loss as Bitcoin trend lines brew 'bullish cross'",
+                                "news_url": "https://cointelegraph.com/news/btc-price-risks-27k-loss-as-bitcoin-trend-lines-brew-bullish-cross",
+                                "news_img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=840/https://s3.cointelegraph.com/uploads/2023-05/29b905ca-da4e-4f2f-a1aa-f84be35ea0e4.jpg",
+                                "abstract": "BTC price action offers little relief to Bitcoin bulls despite U.S. macro data releases showing inflation subsiding.",
+                                "source": "cointelegraph",
+                                "release_time": "2023-05-11",
+                                "imgurl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=840/https://s3.cointelegraph.com/uploads/2023-05/29b905ca-da4e-4f2f-a1aa-f84be35ea0e4.jpg",
+                                "brief": "BTC price action offers little relief to Bitcoin bulls despite U.S. macro data releases showing inflation subsiding."
+                              },
+                              {
+                                "title": "BTC price risks $27K loss as Bitcoin trend lines brew ‘bullish cross’",
+                                "news_url": "https://cointelegraph.com/news/btc-price-risks-27k-loss-as-bitcoin-trend-lines-brew-bullish-cross",
+                                "news_img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=840/https://s3.cointelegraph.com/uploads/2023-05/29b905ca-da4e-4f2f-a1aa-f84be35ea0e4.jpg",
+                                "abstract": "BTC price action offers little relief to Bitcoin bulls despite U.S. macro data releases showing inflation subsiding.",
+                                "source": "cointelegraph",
+                                "release_time": "2023-05-11",
+                                "imgurl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=840/https://s3.cointelegraph.com/uploads/2023-05/29b905ca-da4e-4f2f-a1aa-f84be35ea0e4.jpg",
+                                "brief": "BTC price action offers little relief to Bitcoin bulls despite U.S. macro data releases showing inflation subsiding."
+                              },
+                              {
+                                "title": "Bitcoin Edges Below $27K as Latest Bank Crisis Fails to Trigger Price Increase",
+                                "news_url": "https://www.coindesk.com/markets/2023/05/11/bitcoin-edges-below-27k-as-latest-bank-crisis-fails-to-trigger-price-increase/?utm_medium=referral&utm_source=rss&utm_campaign=headlines",
+                                "news_img": "https://www.coindesk.com/resizer/UuxMotNSCdd2JXha33Cek8jA88k=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/XJS45MY5GNF75CIZ7JFB3P4ZQQ.jpg",
+                                "abstract": "BTC has been trading largely below the psychologically important $30,000 mark since late April, as investors wrestle with recent bank sector debacles and other macroeconomic uncertainties.",
+                                "source": "coindesk",
+                                "release_time": "2023-05-11",
+                                "imgurl": "https://www.coindesk.com/resizer/UuxMotNSCdd2JXha33Cek8jA88k=/800x600/cloudfront-us-east-1.images.arcpublishing.com/coindesk/XJS45MY5GNF75CIZ7JFB3P4ZQQ.jpg",
+                                "brief": "BTC has been trading largely below the psychologically important $30,000 mark since late April, as investors wrestle with recent bank sector debacles and other macroeconomic uncertainties."
+                              }
+                            ]
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "FAQS",
+                          "id": "node_oclht8j7vltt",
+                          "props": {
+                            "title": "faq title",
+                            "FaqList": [
+                              {
+                                "title": "Is GBTC a good investment, especially when it is trading at a discount to NAV?",
+                                "contentList": [
+                                  "GBTC shares do allow investors to have exposure to Bitcoin while bypassing certain challenges such as storage, security and insurance, as well as legal compliance in the case of US investors. However, steep discount to NAV also meant that GBTC shareholders are likely to be in the state of panic or fear. With recent attacks towards the Grayscale management, such added variable to the already volatile Bitcoin price movement may increase the risk for new investors to Bitcoin and cryptocurrencies.",
+                                  "other GBTC shares do allow investors to have exposure to Bitcoin while bypassing certain challenges such as storage, security and insurance, as well as legal compliance in the case of US investors. However, steep discount to NAV also meant that GBTC shareholders are likely to be in the state of panic or fear. With recent attacks towards the Grayscale management, such added variable to the already volatile Bitcoin price movement may increase the risk for new investors to Bitcoin and cryptocurrencies."
+                                ],
+                                "isShow": true
+                              },
+                              {
+                                "title": "How to choose between GBTC and spot Bitcoin?",
+                                "contentList": [
+                                  "As all GBTC does is holding Bitcoin via trust on behalf of the investors, GBTC can actually be considered a <a href=\"/learn/articles/how-to-choose-derivatives-that-suit-you/26\">derivative</a> of Bitcoin. In saying so, the value of GBTC shares is derived from the NAV of the Bitcoins held, and comes without any intrinsic value of its own. GBTC shares are therefore vulnerable to market sentiment and risks, and is very much prone to supply and demand factors on top of spot Bitcoin price. This can pose more difficulties to investors as far as share valuation is concerned."
+                                ],
+                                "isShow": false
+                              },
+                              {
+                                "title": "How to buy Bitcoin if it is decided that spot Bitcoin would be more appropriate?",
+                                "contentList": [
+                                  "You can buy Bitcoin by trading on the spot market via Gate.io, all you have to do is follow the steps on <a href=\"/how-to-buy/bitcoin-btc\">how to buy BTC</a> once you have funded your account."
+                                ],
+                                "isShow": false
+                              },
+                              {
+                                "title": "What is the price prediction of Bitcoin (BTC) in the future?",
+                                "contentList": [
+                                  "Investors tend to rely on <a href=\"learn/articles/what-is-fundamental-wnalysis/27\">fundamental analysis</a> and <a href=\"/learn/articles/what-is-technical-analysis/25\">technical analysis</a> in trying to predict the future price of Bitcoin. On this point, the <a href=\"/price-prediction/bitcoin-btc\">BTC price prediction</a> may be helpful in your decision making process before making any investment decisions."
+                                ],
+                                "isShow": false
+                              }
+                            ],
+                            "isDark": false,
+                            "id": "id-test"
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "LearnArticleList",
+                          "id": "node_oclht8j7vltu",
+                          "props": {
+                            "title": "GBTC and Bitcoin Related Articles",
+                            "learnArticleList": [
+                              {
+                                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/5311f319ec00017f591e5356feac8513efd1ff29.jpg",
+                                "tit": "Beginner",
+                                "color": "green",
+                                "subtitle": "What is Bitcoin (BTC)?",
+                                "href": "undefined/learn/articles/what-is-bitcoin/169"
+                              },
+                              {
+                                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/535631b61cb7269bb43a682e8e564a6423d9b6a5.jpg",
+                                "tit": "Beginner",
+                                "color": "green",
+                                "subtitle": "What is a Bitcoin ETF?",
+                                "href": "undefined/learn/articles/what-is-a-bitcoin-etf/218"
+                              },
+                              {
+                                "Images": "https://s3.ap-northeast-1.amazonaws.com/gimg.gateimg.com/learn/73f83c02f95247e84a1e5e086046cf08eee538bc.jpg",
+                                "tit": "Beginner",
+                                "color": "green",
+                                "subtitle": "What is Spot Trading?",
+                                "href": "undefined/learn/articles/what-is-spot-trading/93"
+                              }
+                            ],
+                            "id": "test"
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        },
+                        {
+                          "componentName": "Disclaimer",
+                          "id": "node_oclht8j7vltv",
+                          "props": {
+                            "a": ""
+                          },
+                          "hidden": false,
+                          "title": "",
+                          "isLocked": false,
+                          "condition": true,
+                          "conditionGroup": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "componentName": "SlideBar",
+                  "id": "node_oclht8j7vljl",
+                  "props": {
+                    "dirList": [
+                      {
+                        "title": "What is GBTC?",
+                        "active": true,
+                        "id": "what-is-gbtc"
+                      },
+                      {
+                        "title": "GBTC vs Bitcoin Chart",
+                        "active": false,
+                        "id": "gbtc-vs-bitcoin-chart"
+                      },
+                      {
+                        "title": "Why is GBTC Trading at a Discount",
+                        "active": false,
+                        "id": "why-is-gbtc-trading-at-a-discount"
+                      },
+                      {
+                        "title": "The Redeem GBTC Campaign",
+                        "active": false,
+                        "id": "the-redeem-gbtc-campaign"
+                      },
+                      {
+                        "title": "GBTC vs Spot Bitcoin",
+                        "active": false,
+                        "id": "gbtc-vs-spot-bitcoin"
+                      },
+                      {
+                        "title": "GBTC News Updates",
+                        "active": false,
+                        "id": "gbtc-news-updates"
+                      },
+                      {
+                        "title": "FAQ about GBTC and Bitcoin",
+                        "active": false,
+                        "id": "faq-about-gbtc-and-bitcoin"
+                      },
+                      {
+                        "title": "GBTC and Bitcoin Related Article",
+                        "active": false,
+                        "id": "gbtc-and-bitcoin-related-article"
+                      }
+                    ]
+                  },
+                  "hidden": false,
+                  "title": "",
+                  "isLocked": false,
+                  "condition": true,
+                  "conditionGroup": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "componentName": "FDPage",
+          "id": "node_oclfjpfqjy5",
+          "props": {
+            "contentProps": {
+              "style": {
+                "background": "rgba(255,255,255,0)"
+              }
+            },
+            "ref": "fdpage-bb43fbb0"
+          },
+          "title": "页面",
+          "hidden": false,
+          "isLocked": false,
+          "condition": true,
+          "conditionGroup": ""
+        }
+      ]
+    }
+  ],
+  "i18n": {
+    "zh-CN": {
+      "i18n-jwg27yo4": "你好 ",
+      "i18n-jwg27yo3": "{name} 博士"
+    },
+    "en-US": {
+      "i18n-jwg27yo4": "Hello ",
+      "i18n-jwg27yo3": "Doctor {name}"
+    }
+  }
+}

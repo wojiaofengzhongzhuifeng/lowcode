@@ -1,0 +1,39 @@
+.section-describe {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #565D73;
+}
+.section-describe-item {
+  margin-bottom: 16px;
+  display: block;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+.classic-dark{
+  .section-describe {
+    color: #606880;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .section-describe {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .section-describe-item {
+    margin-bottom: 12px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.not-margin {
+  margin-top: 0;
+}

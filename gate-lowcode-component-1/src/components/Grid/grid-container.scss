@@ -1,0 +1,65 @@
+:root {
+  --layout-padding: 120px;
+  --layout-maxWidth: 1200px;
+  /* 内容间距 */
+  --layout-itemMargin: 24px;
+}
+
+/* -------------- 内容两侧留白适配  -------------- */
+@media screen and (max-width: 375px) {
+  :root {
+    --layout-padding: 12px;
+    --layout-maxWidth: calc(100vw - 24px);
+  }
+}
+@media screen and (min-width: 375.1px) {
+  :root {
+    --layout-padding: 16px;
+    --layout-maxWidth: 351px;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --layout-padding: 24px;
+    --layout-maxWidth: 736px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    --layout-padding: 24px;
+    --layout-maxWidth: 1152px;
+  }
+}
+/*@media screen and (min-width: 1200px) {*/
+/*  :root {*/
+/*    --layout-padding: 0;*/
+/*    --layout-maxWidth: 1152px;*/
+/*  }*/
+/*  .flex--grid--layout {*/
+/*    max-width: 1152px;*/
+/*  }*/
+/*}*/
+@media screen and (min-width: 1200px) {
+  :root {
+    --layout-padding: 24px;
+    --layout-maxWidth: 1200px;
+  }
+  .flex--grid--layout {
+    max-width: 1200px;
+  }
+}
+@media screen and (min-width: 1920.1px) {
+  :root {
+    --layout-padding: 0;
+    --layout-maxWidth: 1440px;
+  }
+  .flex--grid--layout {
+    max-width: 1440px;
+  }
+}
+
+/* 内容外壳 */
+.flex--grid--layout {
+    padding: 0 var(--layout-padding) !important;
+    margin: 0 auto !important;
+}

@@ -1,0 +1,13 @@
+const lang = [];
+lang[`24/7/365 Custo mer Support`] = `Su porte ao cliente 24/7/365`;
+lang[`Sh o u l d you requi r e assistance related to Gate.io p r o d ucts and services, please reach out to the Customer Support Team as below.`] = `Caso necessite de assistência relacionada com produtos e serviços Gate.io, contacte a Equipa de Apoio ao Cliente como abaixo.`;
+lang[`Live Chat`] = `Suporte direto`;
+lang[`E-mail`] = `E-mail`;
+lang[`Submit a Ticket`] = `Enviar um pedido de suporte `;
+lang[`Disclaimer` ]  = `Exclusão de responsabilidade`;
+lang[`The cryptocurrency market involves a high level of risk.Users are advised to conduct independent research and fully understand the nature of the assets and products offered before making any investment decisions. Gate.io shall not be held liable for any loss or damage resulting from such financial decisions.`] = `O mercado de criptomoedas envolve um alto nível de risco. Os utilizadores são aconselhados a realizar pesquisas independentes e entender totalmente a natureza dos ativos e produtos oferecidos antes de tomar qualquer decisão de investimento. A Gate.io não será responsabilizada por qualquer perda ou dano resultante de tais decisões financeiras.<br />`;
+lang[`Further, take note that Gate.io may not be able to provide full service in certain markets and jurisdictions, including but not limited to the United States of America, Canada, Iran and Cuba. For more information on Restricted Locations, please refer to <a href="https://www.gate.io/user-agreement" target="_blank">Section 2.3(d) of the User Agreement</a>.`]= `Além disso, tenha em atenção que Gate.io pode não ser capaz de prestar serviço completo em determinados mercados e jurisdições, incluindo, mas não limitado aos Estados Unidos da América, Canadá, Irão e Cuba. Para obter mais informações sobre Localizações Restritas, consulte a  Secção 2.3(d) do Contrato do Utilizador . `;
+lang[`Start Now`]=`Comece agora`;
+lang[`Sign up and get a <span>$100</span> Voucher!`]=`Registe-se e ganhe um cupão de US<span>$100</span> !`;
+lang[`Create Account`]=`Criar conta`;
+export default lang;
