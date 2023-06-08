@@ -18,6 +18,7 @@ export { default as Row } from './components/Grid/Row';
 export { default as CompareModuleClassic } from './components/CompareModuleClassic/index';
 export { default as CardContentButton } from './components/CardContentButton/index';
 export { default as TimelineHorizontal } from './components/TimelineHorizontal/index';
+export { default as CardImage } from './components/CardImage/index';
 
 
 import AltStringSetter from './setter/input-setter';

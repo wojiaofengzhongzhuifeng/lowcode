@@ -1,0 +1,135 @@
+.CardCosmos {
+    padding: 40px 0 80px;
+    h2 {
+        font-family: Gate_Sans_Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #04091A;
+
+    }
+
+    .key_content {
+        background: #F8FAFD;
+        border-radius: 8px;
+        border: 1px solid #F8FAFD;
+        box-shadow: 0px 4px 14px rgba(19, 60, 158, 0.06);
+        margin-top: 40px;
+        .content_Img {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .content_Bot {
+            padding: 16px 24px;
+        }
+
+        .content_name {
+            font-family: Gate_Sans_Bold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: #04091A;
+            margin-bottom: 8px;
+        }
+
+        .content_text {
+            font-family: Gate_Sans;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #565D73;
+
+            li {
+                margin-bottom: 4px;
+                display: flex;
+                align-items: center;
+            }
+
+            li:last-child {
+                margin-bottom: 0;
+            }
+
+            .Text_Square {
+                width: 4px;
+                height: 4px;
+                display: block;
+                margin-right: 8px;
+                background: #17E5A1;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .CardCosmos {
+        padding: 24px 0;
+        h2 {
+            font-size: 24px;
+        }
+        .Card_Cont{
+            margin-top: 24px;
+        }
+        .key_content {
+            margin-top: 0;
+            .content_Bot {
+                padding: 16px;
+            }
+
+            .content_name {
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+
+            .content_text {
+                font-size: 14px;
+
+                .Text_Square {
+                    width: 4px;
+                    height: 4px;
+                    margin-right: 8px;
+                }
+
+                li {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+
+
+.classic-dark {
+    .CardCosmos {
+        h2 {
+            color: #FFFFFF;
+        }
+
+        .key_content {
+            background: #1F2433;
+            border: 1px solid #1F2433;
+            box-shadow: 0px 4px 14px rgba(19, 60, 158, 0.06);
+
+            .content_name {
+                color: #FFFFFF;
+            }
+
+            .content_text {
+                color: #989FB3;
+            }
+        }
+
+        .key_subtitle {
+            color: #989FB3;
+        }
+    }
+
+}
