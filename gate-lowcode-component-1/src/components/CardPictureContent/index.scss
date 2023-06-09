@@ -1,0 +1,283 @@
+.CosmosCompetitors {
+    padding: 40px 0 80px;
+
+    h2 {
+        font-family: Gate_Sans_Bold;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #04091A;
+
+    }
+
+    .Competitors_Block {
+        margin-top: 40px;
+    }
+
+    .Competitors_Content {
+        padding: 24px 16px;
+        background: #F8F9FB;
+        box-shadow: 0px 4px 16px rgba(23, 56, 153, 0.06);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        gap: 40px;
+        .Content_Img {
+            width: 342px;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+        .Content_Right {
+            flex: 1;
+
+            .Right_Content {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .Right_Content_Left {
+                    margin-right: 24px;
+                    width: 50%;
+                }
+
+                .Right_Content_Right {
+                    width: 50%;
+                }
+            }
+
+            .Right_h3 {
+
+                font-family: Gate_Sans_Bold;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 150%;
+                color: #04091A;
+
+            }
+
+            .Right_Img {
+                width: 12px;
+                margin-right: 8px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .Right_text {
+                font-family: Gate_Sans_Regular;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                color: #04091A;
+                display: flex;
+                align-items: flex-start;
+                margin-top: 16px;
+
+                p {
+                    // width: 293px;
+                    flex: 1;
+                }
+            }
+
+            .Right_Button {
+                display: flex;
+                align-items: center;
+                font-family: Gate_Sans;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 150%;
+                color: #565D73;
+                margin-top: 24px;
+
+                .Right_Btn {
+                    background: #2354E6;
+                    border-radius: 4px;
+                    padding: 9px 16px;
+                    font-family: Gate_Sans_Semibold;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    margin-right: 8px;
+                    text-decoration: none;
+                    white-space: nowrap;
+                    margin-left: 0px;
+                }
+
+                a {
+                    color: #2354E6;
+                    text-decoration: underline;
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+
+    .Competitors_Content:first-child {
+        margin-top: 0px;
+    }
+
+    .Competitors_ImgLeft {
+        flex-direction: row;
+    }
+
+    .Competitors_ImgRight {
+        flex-direction: row-reverse;
+    }
+}
+
+.classic-dark {
+    .CosmosCompetitors {
+
+        h2 {
+            color: #ffffff;
+        }
+
+        .Competitors_Content {
+            background: #151926;
+            box-shadow: 0px 4px 16px rgba(23, 56, 153, 0.06);
+
+            .Content_Right {
+
+
+                .Right_h3 {
+                    color: #FFFFFF;
+                }
+
+                .Right_text {
+
+                    p {
+                        color: #FFFFFF;
+
+                    }
+                }
+
+                .Right_Button {
+                    color: #989FB3;
+
+                    .Right_Btn {
+                        background: #3366FF;
+                    }
+
+                    a {
+                        color: #ffffff;
+                    }
+
+                    p {
+                        a {
+                            color: #3366FF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .CosmosCompetitors {
+        padding: 24px 0;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .Competitors_Block {
+            margin-top: 24px;
+        }
+
+        .Competitors_Content {
+            flex-direction: column;
+            margin-top: 24px;
+            padding: 0;
+            background: #F8FAFD;
+            border: 1px solid #F8FAFD;
+            box-shadow: 0px 4px 14px rgba(19, 60, 158, 0.06);
+            align-items: normal;
+            gap: 0;
+            .Content_Img {
+                width: 100%;
+
+                img {
+                    border-radius: 8px;
+                }
+            }
+
+            .Content_Right {
+                padding: 16px;
+                margin-left: 0;
+
+                .Right_h3 {
+                    font-size: 16px;
+                    margin-bottom: -4px;
+                }
+
+                .Right_Img {
+                    width: 12px;
+                    margin-right: 8px;
+                }
+
+                .Right_text {
+                    font-size: 12px;
+                    margin-top: 12px;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+
+                .Right_Button {
+                    flex-direction: column;
+                    margin-top: 16px;
+                    font-size: 12px;
+                    font-weight: 500;
+
+                    .Right_Btn {
+                        width: 100%;
+                        padding: 12px 0;
+                        text-align: center;
+                        border: 1px solid #F8FAFD;
+                        border-radius: 4px;
+                        font-size: 16px;
+                        margin-right: 0;
+                        margin-left: 0;
+                    }
+
+                    p {
+                        margin-top: 8px;
+                    }
+                }
+            }
+
+        }
+
+        .Competitors_ImgRight {
+            .Content_Right {
+                margin-right: 0;
+            }
+        }
+
+    }
+
+    .classic-dark {
+        .CosmosCompetitors .Competitors_Content {
+            background: #1F2433;
+            border: 1px solid #1F2433;
+            box-shadow: 0px 4px 14px rgba(19, 60, 158, 0.06);
+        }
+
+        .CosmosCompetitors .Competitors_Content .Content_Right .Right_Button .Right_Btn {
+            border: 1px solid #1F2433;
+        }
+    }
+}

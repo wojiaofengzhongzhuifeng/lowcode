@@ -21,7 +21,7 @@ export { default as TimelineHorizontal } from './components/TimelineHorizontal/i
 export { default as CardImage } from './components/CardImage/index';
 export { default as BrandIcon } from './components/BrandIcon/index';
 export { default as ImgContent } from './components/ImgContent/index';
-
+export { default as CardPictureContent } from './components/CardPictureContent/index';
 
 import AltStringSetter from './setter/input-setter';
 import FAQInputSetter from "./setter/faq-input-setter";
