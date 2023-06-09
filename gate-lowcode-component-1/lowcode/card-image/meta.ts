@@ -143,7 +143,7 @@ const CardImageMeta: ComponentMetadata = {
 const snippets: Snippet[] = [
   {
     "title": "图片卡片列表组件",
-    "screenshot": "",
+    "screenshot": "https://www.sesametest.co:8080/static_pages/ali-lowcode/screenshot/15-card-image.jpg",
     "schema": {
       "componentName": "CardImage",
       "props": {}

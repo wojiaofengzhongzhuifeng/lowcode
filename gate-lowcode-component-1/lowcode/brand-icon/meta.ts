@@ -136,7 +136,7 @@ const BrandIconMeta: ComponentMetadata = {
 const snippets: Snippet[] = [
   {
     "title": "品牌图标列表组件",
-    "screenshot": "",
+    "screenshot": "https://www.sesametest.co:8080/static_pages/ali-lowcode/screenshot/12-brand-icon.jpg",
     "schema": {
       "componentName": "BrandIcon",
       "props": {}

@@ -158,7 +158,7 @@ const ImgContentMeta: ComponentMetadata = {
 const snippets: Snippet[] = [
   {
     "title": "图文组件",
-    "screenshot": "",
+    "screenshot": "https://www.sesametest.co:8080/static_pages/ali-lowcode/screenshot/16-img-content.jpg",
     "schema": {
       "componentName": "ImgContent",
       "props": {}

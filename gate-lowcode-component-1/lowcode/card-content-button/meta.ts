@@ -152,7 +152,7 @@ const CardContentButtonMeta: ComponentMetadata = {
 const snippets: Snippet[] = [
   {
     "title": "卡片+按钮组件",
-    "screenshot": "",
+    "screenshot": "https://www.sesametest.co:8080/static_pages/ali-lowcode/screenshot/13-card-content-button.jpg",
     "schema": {
       "componentName": "CardContentButton",
       "props": {}

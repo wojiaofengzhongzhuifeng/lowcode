@@ -121,7 +121,7 @@ const TimelineHorizontalMeta: ComponentMetadata = {
 const snippets: Snippet[] = [
   {
     "title": "水平时间轴组件",
-    "screenshot": "",
+    "screenshot": "https://www.sesametest.co:8080/static_pages/ali-lowcode/screenshot/14-timeline-horizontal.jpg",
     "schema": {
       "componentName": "TimelineHorizontal",
       "props": {}
