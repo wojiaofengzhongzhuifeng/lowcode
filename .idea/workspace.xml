@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb02daf6-503e-45e3-8575-b3de33cb0d98" name="Changes" comment="feat: brand 组件">
-      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/brand-icon/meta.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/BrandIcon/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/BrandIcon/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/BrandIcon/types.tsx" afterDir="false" />
+    <list default="true" id="fb02daf6-503e-45e3-8575-b3de33cb0d98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/img-content/meta.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/ImgContent/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/ImgContent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/ImgContent/types.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/index.tsx" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <updated>1683526528173</updated>
       <workItem from="1683526529438" duration="91000" />
       <workItem from="1686190008363" duration="9462000" />
-      <workItem from="1686211676760" duration="6818000" />
+      <workItem from="1686211676760" duration="8672000" />
     </task>
     <task id="LOCAL-00001" summary="init 2023年06月08日15:12:08">
       <created>1686208390289</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686217016931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: brand icon 组件">
+      <created>1686220835483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686220835483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,8 @@
     <MESSAGE value="feat: card-content-button" />
     <MESSAGE value="feat: 水平时间轴组件" />
     <MESSAGE value="feat: card image 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: card image 组件" />
+    <MESSAGE value="feat: brand icon 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: brand icon 组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,99 @@
+.CosmosExplaine_Content {
+    .CosmosExplaine_Box {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        .Box_Img {
+            width: 50%;
+
+            img {
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+
+
+        .Box_Content {
+            width: 50%;
+        }
+
+        h3 {
+
+            font-family: Gate_Sans_Bold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            color: #04091A;
+
+        }
+
+        p {
+            font-family: Gate_Sans;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            color: #565D73;
+            margin-top: 8px;
+        }
+    }
+
+    .position_Left {
+        flex-direction: row;
+    }
+
+    .position_Right {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.classic-dark {
+
+    .CosmosExplaine_Content .CosmosExplaine_Box {
+        h3 {
+            color: #fff;
+        }
+
+        p {
+            color: #989FB3;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .CosmosExplaine_Content {
+        .CosmosExplaine_Box {
+            margin-top: 0;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                margin-top: 12px;
+                font-size: 14px;
+            }
+
+            .Box_Content {
+                width: 100%;
+            }
+
+            .Box_Img {
+                width: 100%;
+            }
+
+        }
+
+        .position_Left {
+            flex-direction: column-reverse;
+        }
+
+        .position_Right {
+            flex-direction: column-reverse;
+        }
+    }
+}

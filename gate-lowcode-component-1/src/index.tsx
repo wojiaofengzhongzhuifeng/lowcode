@@ -20,6 +20,7 @@ export { default as CardContentButton } from './components/CardContentButton/ind
 export { default as TimelineHorizontal } from './components/TimelineHorizontal/index';
 export { default as CardImage } from './components/CardImage/index';
 export { default as BrandIcon } from './components/BrandIcon/index';
+export { default as ImgContent } from './components/ImgContent/index';
 
 
 import AltStringSetter from './setter/input-setter';
