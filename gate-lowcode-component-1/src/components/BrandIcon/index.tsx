@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './index.scss'
 import { Row } from "../Grid"
 import {BrandIconProps} from "./types";
-export default function BrandIcon({ isDark, BrandIconList, title }: BrandIconProps) {
-    return (
+import {useQueryCurrentThemeIsDark} from '../../common-hooks'
+export default function BrandIcon({ BrandIconList, title }: BrandIconProps) {
+  const isDark = useQueryCurrentThemeIsDark()
+
+  useEffect(()=>{
+    console.log('isDark BrandIcon', isDark);
+  }, [isDark])
+
+  return (
         <div className='Icon'>
             <h2>{title}</h2>
             <div className='Icon_Components'>
