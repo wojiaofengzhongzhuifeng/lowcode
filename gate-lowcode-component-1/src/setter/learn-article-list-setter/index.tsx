@@ -3,22 +3,25 @@ import {Button, Input, Switch} from "@alifd/next";
 import {LearnArticleListItemProps} from "../../components/LearnArticleList";
 
 interface ListSetterProps {
-  // 当前值
+  // todo 修改 LearnArticleListItemProps 当前值
   value:  LearnArticleListItemProps[];
   // 默认值
   defaultValue: string;
   // setter 唯一输出
+  // todo LearnArticleListItemProps 修改
   onChange: (val: LearnArticleListItemProps[]) => void;
   // AltStringSetter 特殊配置
   placeholder: string;
 }
 
+// todo 修改 LearnArticleListSetter
 const LearnArticleListSetter: React.FC<ListSetterProps> = ({
   onChange,
   value,
   defaultValue,
   placeholder,
 })=>{
+  // todo 修改LearnArticleListItemProps
   const [list, setList] = useState<LearnArticleListItemProps[]>(value)
   const [mounted, setMounted] = useState(false)
 
@@ -43,8 +46,8 @@ const LearnArticleListSetter: React.FC<ListSetterProps> = ({
 
 
   const handleAddItem = ()=>{
+    // todo 修改{Images: '', href: '', tit: '', color: '', subtitle: ''}
     setList([...list, {Images: '', href: '', tit: '', color: '', subtitle: ''}])
-
   }
 
   const handleRemoveItem = (index1)=>{
@@ -65,6 +68,8 @@ const LearnArticleListSetter: React.FC<ListSetterProps> = ({
     setList(newList)
   }
 
+
+
   return (
     <div>
 
@@ -73,6 +78,7 @@ const LearnArticleListSetter: React.FC<ListSetterProps> = ({
           return (
             <div style={{ margin: '10px 0',boxShadow: '0px 1px 7px 0px rgba(0,0,0,0.75)', padding: "10px"}}  key={index1}>
               <div >
+                {/*todo 修改 封面图 Images Images*/}
                 封面图: <Input  key={index1} value={item.Images} onChange={(newText)=>{handleChange('Images', newText, index1)}}/>
               </div>
 

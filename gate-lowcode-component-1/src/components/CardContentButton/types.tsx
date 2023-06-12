@@ -21,6 +21,10 @@ export const initialCardContentList = [
       {
         buttonName: ('Visit Osmosis Homepage'),
         url: 'https://osmosis.zone/'
+      },
+      {
+        buttonName: ('Visit Osmosis'),
+        url: 'https://osmosis.zone/test'
       }
     ]
 

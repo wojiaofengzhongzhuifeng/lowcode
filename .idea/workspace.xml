@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb02daf6-503e-45e3-8575-b3de33cb0d98" name="Changes" comment="feat: card-picture-content 组件">
+      <change afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/setter/card-content-button-setter/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/brand-icon/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/brand-icon/meta.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-content-button/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-content-button/meta.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-image/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-image/meta.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-picture-content/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/card-picture-content/meta.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/img-content/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/img-content/meta.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/timeline-horizontal/meta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/lowcode/timeline-horizontal/meta.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/CardContentButton/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/components/CardContentButton/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gate-lowcode-component-1/src/setter/learn-article-list-setter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/gate-lowcode-component-1/src/setter/learn-article-list-setter/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +32,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gate/Desktop/code/lowcode-project/gate-lowcode-component-1/src/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/gate/Desktop/code/lowcode-project/lowcode-nest-backend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/gate/Desktop/code/lowcode-project/gate-lowcode-component-1/src/setter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/gate/Desktop/code/lowcode-project/lowcode-nest-backend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gate-lowcode-component-1/src/setter" />
       <recent name="$PROJECT_DIR$/gate-lowcode-component-1/src/components" />
     </key>
   </component>

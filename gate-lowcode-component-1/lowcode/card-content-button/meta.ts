@@ -28,7 +28,7 @@ const CardContentButtonMeta: ComponentMetadata = {
         },
         "name": "CardContentList",
         "setter": {
-          "componentName": "ArraySetter",
+          "componentName": "CardContentButtonSetter",
           "props": {
             "itemSetter": {
               "componentName": "ObjectSetter",
