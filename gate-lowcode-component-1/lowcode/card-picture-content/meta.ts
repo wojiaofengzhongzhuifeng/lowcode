@@ -28,7 +28,7 @@ const CardPictureContentMeta: ComponentMetadata = {
         },
         "name": "CardPictureContentList",
         "setter": {
-          "componentName": "ArraySetter",
+          "componentName": "CardPictureContentSetter",
           "props": {
             "itemSetter": {
               "componentName": "ObjectSetter",

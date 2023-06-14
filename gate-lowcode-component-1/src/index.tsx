@@ -30,6 +30,7 @@ import LearnArticleListSetter from "./setter/learn-article-list-setter";
 import NewCardListSetter from "./setter/new-card-list-setter";
 import RowSpanNumberInputSetter from "./setter/row-span-number-input-setter";
 import CardContentButtonSetter from "./setter/card-content-button-setter";
+import CardPictureContentSetter from "./setter/card-picture-content-setter";
 
 
 init()
@@ -50,6 +51,7 @@ function registerCustomSetter(){
   registerSetter('NewCardListSetter', NewCardListSetter);
   registerSetter('RowSpanNumberInputSetter', RowSpanNumberInputSetter);
   registerSetter('CardContentButtonSetter', CardContentButtonSetter);
+  registerSetter('CardPictureContentSetter', CardPictureContentSetter);
 
 
 }
