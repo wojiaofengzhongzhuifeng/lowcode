@@ -6,7 +6,7 @@ export interface TimelineHorizontalItemProps{
 }
 export interface TimelineHorizontalProps{
   TimelineHorizontalList: TimelineHorizontalItemProps[]
-  isPhone: boolean
+
 }
 
 export const initialTimelineHorizontalList = [

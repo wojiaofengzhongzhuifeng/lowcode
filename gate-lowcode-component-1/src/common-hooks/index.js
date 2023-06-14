@@ -132,4 +132,11 @@ export const GetDocumentInnerHeight = () => {
   }, [inApps, inIos, inAndroid])
 }
 
+export const useCheckIsPhone = ()=>{
+  const [isPhone, setIsPhone] = useState(window.innerWidth < 768);
+  useQueryCurrentDeviceIsMobileAtWidth(() => {
+    setIsPhone(!isPhone)
+  }, 768)
+  return {isPhone}
+}
 

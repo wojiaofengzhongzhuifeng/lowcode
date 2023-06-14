@@ -94,21 +94,7 @@ const TimelineHorizontalMeta: ComponentMetadata = {
           "initialValue": initialTimelineHorizontalList
         }
       },
-      {
-        "title": {
-          "label": {
-            "type": "i18n",
-            "en-US": "isPhone",
-            "zh-CN": "isPhone"
-          }
-        },
-        "name": "isPhone",
-        "setter": {
-          "componentName": "BoolSetter",
-          "isRequired": true,
-          "initialValue": false
-        }
-      }
+
     ],
     "supports": {
       "style": true

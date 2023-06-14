@@ -2,8 +2,10 @@ import React from 'react'
 import './index.scss'
 import { Row } from "../Grid"
 import {TimelineHorizontalProps} from "./types";
-function TimelineHorizontal({ TimelineHorizontalList, isPhone }: TimelineHorizontalProps) {
+import {useCheckIsPhone} from './../../common-hooks'
+function TimelineHorizontal({ TimelineHorizontalList }: TimelineHorizontalProps) {
     const active = TimelineHorizontalList.length
+    const {isPhone} = useCheckIsPhone()
 
     return (
         <div className='How' id='growth'>
