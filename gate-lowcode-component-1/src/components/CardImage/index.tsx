@@ -17,6 +17,7 @@ const CardImage = ({ CardImageList, title }: CardImageProps) => {
                                         <ImageLoader alt={item.ImageAlt} src={item.Image} />
                                     </div>
                                     <div className="content_Bot">
+                                        <p className='content_title'>{item.title}</p>
                                         <ul className="content_text">
                                             {
                                                 item.descriptionList.map((itm) => {
