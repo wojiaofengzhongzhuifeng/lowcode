@@ -98,21 +98,6 @@ const BrandIconMeta: ComponentMetadata = {
         "title": {
           "label": {
             "type": "i18n",
-            "en-US": "isDark",
-            "zh-CN": "isDark"
-          }
-        },
-        "name": "isDark",
-        "setter": {
-          "componentName": "BoolSetter",
-          "isRequired": true,
-          "initialValue": false
-        }
-      },
-      {
-        "title": {
-          "label": {
-            "type": "i18n",
             "en-US": "title",
             "zh-CN": "title"
           }

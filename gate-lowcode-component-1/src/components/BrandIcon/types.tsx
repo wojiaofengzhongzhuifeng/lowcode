@@ -6,7 +6,6 @@ export interface BrandIconItem{
 }
 export interface BrandIconProps{
   BrandIconList: BrandIconItem[]
-  isDark:boolean
   title: string
 }
 
